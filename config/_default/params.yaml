@@ -91,7 +91,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/'
+    url: 'https://github.com/RDMT4NFDI/rdmt4nfdi-website'
     content_dir: content
     branch: main
   avatar:

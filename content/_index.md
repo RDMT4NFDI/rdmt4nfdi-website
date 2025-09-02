@@ -1,15 +1,15 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2024-07-24
+date: 2025-09-02
 type: landing
 
 sections:
   - block: hero
     content:
-      title: Todo4NFDI
+      title: RDMT4NFDI
       image:
-        filename: todo4nfdi.png
+        filename: _RDMTraining4NFDI.png
       text: |
         … is a basic service under development for the German National Research Data Infrastructure ([Nationale Forschungsdaten&shy;infrastruktur – NFDI](https://www.nfdi.de/?lang=en)). Todo4NFDI is part of [Base4NFDI](https://base4nfdi.de/) and is currently in its initialisation phase, the first of three service development phases.
 
