@@ -16,7 +16,7 @@ sections:
        
         <!-- remove this comment to include the form. Don't forget to change the action URL accordingly 
         <div class="mb-3">
-          <form name="contact" method="POST" action="https://TODO4NFDI.FORM.URL/create" target="formres">
+          <form name="contact" method="POST" action="https://RDMT4NFDI.FORM.URL/create" target="formres">
           <div class="form-group form-inline">
             <label class="sr-only" for="inputSubject">Subject</label>
             <input type="text" name="subject" class="form-control w-100" id="inputSubject" placeholder="Subject" required="true">

@@ -8,7 +8,7 @@ TODO: insert your service logo
 
 ![todo](https://github.com/user-attachments/assets/f308fd01-e74c-45ef-a41d-19704095b7fe)
 
-# TODO4NFDI
+# RDMT4NFDI
 
 TODO: short intro text about project
 

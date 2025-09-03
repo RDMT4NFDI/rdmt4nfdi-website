@@ -8,7 +8,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: What is Todo4NFDI?
+      title: What is RDMT4NFDI?
       subtitle: The most needed basic service yet.
       text: |
         And there's a lot more to discover.
@@ -30,7 +30,7 @@ sections:
 
   - block: experience
     content:
-      title: In which development phase is Todo4NFDI?
+      title: In which development phase is RDMT4NFDI?
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: January 2006

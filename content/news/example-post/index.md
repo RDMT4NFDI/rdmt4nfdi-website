@@ -1,7 +1,7 @@
 ---
 # Documentation: https://docs.hugoblox.com/ and https://gohugo.io/content-management/
 
-title: "Todo4NFDI launched"
+title: "RDMT4NFDI launched"
 subtitle: "yay"
 summary: ""
 authors: ["josiah"]

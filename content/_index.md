@@ -11,7 +11,7 @@ sections:
       image:
         filename: _RDMTraining4NFDI.png
       text: |
-        … is a basic service under development for the German National Research Data Infrastructure ([Nationale Forschungsdaten&shy;infrastruktur – NFDI](https://www.nfdi.de/?lang=en)). Todo4NFDI is part of [Base4NFDI](https://base4nfdi.de/) and is currently in its initialisation phase, the first of three service development phases.
+        RDMTraining4NFDI delivers hands-on training in research data management (RDM) for all NFDI consortia. Our courses cover data, software, and machine-learning models and target consortia staff - such as data stewards and trainers - as well as researchers within each community. We develop a modular collection of core RDM training materials and proven training formats and methods. By using these resources, consortia can quickly create community-specific adaptations and expand their capacity efficiently. We also provide consultancy on training skills and methodologies and explore certification options to set quality standards and recognize participants' achievements.
 
         {{% cta cta_link="./about/" cta_text="Read more →" %}}
 

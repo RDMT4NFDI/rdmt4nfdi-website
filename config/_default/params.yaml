@@ -56,11 +56,11 @@ footer:
         [What is a Basic Service?](https://base4nfdi.de/process/basic-services)<br>
         [Our Mission Statement](https://base4nfdi.de/about/mission-statement)<br>
         '
-  dfg: ' Todo4NFDI is funded as part of [Base4NFDI](https://base4nfdi.de).<br>
+  dfg: ' RDMT4NFDI is funded as part of [Base4NFDI](https://base4nfdi.de).<br>
         Grant number: 521466146.
         '
   copyright:
-    notice: '© {year} Todo4NFDI  <br>
+    notice: '© {year} RDMT4NFDI  <br>
     This work is licensed <br>
     under {license}'
     license:

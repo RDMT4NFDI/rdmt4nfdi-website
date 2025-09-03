@@ -1,7 +1,7 @@
 ---
 draft: false
 
-title: Todo4NFDI @ 1st Base4NFDI User Conference
+title: RDMT4NFDI @ 1st Base4NFDI User Conference
 
 event: 1st Base4NFDI User Conference
 event_url: https://events.gwdg.de/event/658/
@@ -14,8 +14,8 @@ address:
   postcode: '10589'
   country: Germany
 
-summary: Todo4NFDI will take part in the first Base4NFDI User Conference in 2024 in Berlin.
-abstract: 'The team of Todo4NFDI will join in participating in the first Base4NFDI User Conference which takes place in Berlin in November 2024.'
+summary: RDMT4NFDI will take part in the first Base4NFDI User Conference in 2024 in Berlin.
+abstract: 'The team of RDMT4NFDI will join in participating in the first Base4NFDI User Conference which takes place in Berlin in November 2024.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

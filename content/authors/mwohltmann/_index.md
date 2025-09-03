@@ -19,7 +19,7 @@ organizations:
     url: 'http://www.brown.edu/'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of Todo4NFDI.
+bio: Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of RDMT4NFDI.
 
 interests:
   - Psychoceramics
@@ -64,4 +64,4 @@ user_groups:
   - Principal Investigators
 ---
 
-Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of Todo4NFDI.
+Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of RDMT4NFDI.

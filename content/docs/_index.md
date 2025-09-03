@@ -6,7 +6,7 @@ type: book
 
 ---    
 
-This wiki provides an overview on how to use the Todo4NFDI service!
+This wiki provides an overview on how to use the RDMT4NFDI service!
 
 It can be divided into multiple chapters (e.g. for endusers and developers) and formatted as simple markdown or more complex [Hugo formatting](https://bootstrap.hugoblox.com/content/writing-markdown-latex/)
 
