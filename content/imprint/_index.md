@@ -75,7 +75,7 @@ sections:
 
         **Funding (mandatory)**
 
-        This project is funded as part of Base4NFDI, grant number: 521466146.\
+        This project is funded as part of Base4NFDI, grant number: 521453681.\
         *(Dieses Projekt wird im Rahmen von Base4NFDI unter dem
         Förderkennzeichen 521466146 gefördert.)*
 
