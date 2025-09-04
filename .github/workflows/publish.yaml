@@ -39,6 +39,8 @@ jobs:
           fi
 
       - name: Build Hugo site with correct baseURL
+        env:
+          GOTOOLCHAIN: local
         run: hugo --minify --baseURL "$HUGO_BASEURL"
 
       - name: Determine target directory
