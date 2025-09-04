@@ -1,0 +1,69 @@
+name: Deploy Hugo to Self-hosted Runner
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+
+jobs:
+  build-and-deploy:
+    runs-on: borkum-self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Install Hugo
+        run: |
+          HUGO_VERSION=0.149.0  # Update if needed
+          wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+          tar -xvzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+          sudo mv hugo /usr/local/bin/hugo
+          rm -f hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz  # Cleanup tarball
+          hugo version
+
+      - name: Set Base URL
+        run: |
+          if [ "${{ github.ref }}" == "refs/heads/main" ]; then
+            echo "HUGO_BASEURL=https://rdmt.services.base4nfdi.de/" >> $GITHUB_ENV
+          elif [ "${{ github.ref }}" == "refs/heads/dev" ]; then
+            echo "HUGO_BASEURL=https://wp.dev.rdmt.services.base4nfdi.de/" >> $GITHUB_ENV
+          else
+            echo "Skipping deployment for unrecognized branch"
+            exit 0
+          fi
+
+      - name: Build Hugo site with correct baseURL
+        run: hugo --minify --baseURL "$HUGO_BASEURL"
+
+      - name: Determine target directory
+        id: deploy-path
+        run: |
+          if [ "${{ github.ref }}" == "refs/heads/main" ]; then
+            echo "TARGET_DIR=/var/www/rdmt.services.base4nfdi.de/main" >> $GITHUB_ENV
+          elif [ "${{ github.ref }}" == "refs/heads/dev" ]; then
+            echo "TARGET_DIR=/var/www/rdmt.services.base4nfdi.de/dev" >> $GITHUB_ENV
+          else
+            echo "Skipping deployment for unrecognized branch"
+            exit 0
+          fi
+
+      - name: Deploy to target directory
+        if: github.event_name == 'push'
+        run: |
+          sudo rm -rf $TARGET_DIR/*
+          sudo cp -r public/* $TARGET_DIR/
+          sudo chown -R www-data:www-data $TARGET_DIR
+          sudo chmod -R 755 $TARGET_DIR
+
+      - name: Clean Up Workspace
+        if: always()
+        run: |
+          echo "Cleaning up workspace..."
+          rm -rf $GITHUB_WORKSPACE/*
+          echo "Cleanup complete."
