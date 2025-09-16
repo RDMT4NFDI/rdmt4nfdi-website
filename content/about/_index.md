@@ -8,10 +8,9 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: What is RDMT4NFDI?
-      subtitle: The most needed basic service yet.
+      title: Mission
       text: |
-        And there's a lot more to discover.
+        Our mission is to improve research data management by providing tools, training, and community support.
 
     design:
       columns: '1'
