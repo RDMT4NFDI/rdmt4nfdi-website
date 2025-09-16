@@ -70,32 +70,17 @@ sections:
   - block: people
     content:
       title: Team
-      text: 
-      people:
-        - name: Prof. Dr. Konrad Förstner
-          role: Principal Investigator
-          image: /images/Konrad_Förstner.jpg
-        - name: Prof. Dr. Mirjam Blümm
-          role: Principal Investigator
-          image: /images/Mirjam_Bluemm.jpeg
-        - name: Mareike Wohltmann
-          role: Project Manager
-          image: /images/Mareike_Wohltmann.jpg
-        - name: Sina Bock
-          role: Project Member
-          image: /images/Sina_Bock.jpg
-        - name: Justine Vandendorpe
-          role: Project Member
-          image: /images/Justine_Vandendorpe.jpg
-        - name: Marco Uebachs
-          role: Project Member
-          image: /images/Marco_Uebachs.jpg
-        - name: Rabea Müller
-          role: Project Member
-          image: /images/Mueller_Rabea.jpg
-        - name: Birte Lindstädt
-          role: Project Member
-          image: /images/Birte_Lindstaedt.jpg
+      users:
+        - blindstaedt
+        - jvandendorpe
+        - kfoerstner
+        - mbluemm
+        - melhossary
+        - muebachs
+        - mwohltmann
+        - rmueller
+        - sbock
     design:
       columns: '3'
+
 ---
