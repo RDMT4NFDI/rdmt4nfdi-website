@@ -16,24 +16,21 @@ sections:
       columns: '1'
   
   # Partner
-  - block: feature
+  - block: markdown
     content:
       title: Partner
-      items:
-        - icon: /images/nfdi4microbiota.png
-          name: NFDI4Microbiota
-        - icon: /images/ZBMED17_d_rgb_web_cl.jpg
-          name: ZB MED
-        - icon: /images/TH_Köln_Logo.png
-          name: TH Köln
-        - icon: /images/Logo_NFDI4Memory.svg
-          name: NFDI4Memory
-        - icon: /images/LogoBERD.png
-          name: BERD
-        - icon: /images/Logo-KonsortSWD-NFDI4society.svg
-          name: KonsortSWD
+      text: |
+        ![NFDI4Microbiota](/images/nfdi4microbiota.png)  
+        ![ZB MED](/images/ZBMED17_d_rgb_web_cl.jpg)  
+        ![TH Köln](/images/TH_Köln_Logo.png)  
+        ![NFDI4Memory](/images/Logo_NFDI4Memory.svg)  
+        ![BERD](/images/LogoBERD.png)  
+        ![KonsortSWD](/images/Logo-KonsortSWD-NFDI4society.svg)  
+
+        *Note: See Git Issue for the Logos*
     design:
       columns: '3'
+
 
 
   - block: experience
