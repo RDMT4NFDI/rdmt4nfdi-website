@@ -37,7 +37,8 @@ sections:
         </div>
         -->
 
-      email: TODO add your mail
+      email: [rdmtraining4nfdi@lists.nfdi.de](mailto:rdmtraining4nfdi@lists.nfdi.de) (reach the whole RDMT Community) & [rdmtraining4nfdi-orga@lists.nfdi.de](mailto:rdmtraining4nfdi-orga@lists.nfdi.de) (contact the team)
+
 
       # appointment_url: 'https://terminplaner6.dfn.de/'
       
@@ -48,7 +49,7 @@ sections:
       #     link: 'https://discourse.gohugo.io'
     
       # Automatically link email and phone or display as text?
-      autolink: true
+      autolink: false
 
     design:
       columns: '1'
