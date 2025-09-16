@@ -15,21 +15,20 @@ sections:
     design:
       columns: '1'
   
-  # Partner
+  # # Partner
   - block: markdown
     content:
       title: Partner
       text: |
-        ![NFDI4Microbiota](static/images/nfdi4microbiota.png)  
-        ![ZB MED](/images/ZBMED17_d_rgb_web_cl.jpg)  
-        ![TH Köln](/images/TH_Köln_Logo.png)  
-        ![NFDI4Memory](/images/Logo_NFDI4Memory.svg)  
-        ![BERD](/images/LogoBERD.png)  
-        ![KonsortSWD](/images/Logo-KonsortSWD-NFDI4society.svg)  
-
-        *Note: See Git Issue for the Logos*
+        <img src="/images/nfdi4microbiota.png" height="80"/>  
+        <img src="/images/ZBMED17_d_rgb_web_cl.jpg" height="80"/>  
+        <img src="/images/TH_Köln_Logo.png" height="80"/>  
+        <img src="/images/Logo_NFDI4Memory.svg" height="80"/>  
+        <img src="/images/LogoBERD.png" height="80"/>  
+        <img src="/images/Logo-KonsortSWD-NFDI4society.svg" height="80"/>  
     design:
       columns: '3'
+
 
 
 
