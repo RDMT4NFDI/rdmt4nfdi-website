@@ -12,6 +12,8 @@ superuser: false
 
 # SLug
 slug: "kfoerstner"
+authors:
+  - kfoerstner
 
 # Avatar
 avatar: "avatar.jpg"
