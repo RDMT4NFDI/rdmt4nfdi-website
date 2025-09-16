@@ -14,18 +14,27 @@ sections:
 
     design:
       columns: '1'
-
-  - block: markdown
+  
+  # Partner
+  - block: feature
     content:
-      title: And what are the details?
-      text: |
-        Scientific data should in any case follow the [FAIR principles](https://www.go-fair.org/fair-principles/), which promote findability, accessibility, interoperability and re-usability of research data. 
-
-        And here is a video of milk under a microscope, © [Miguel Angel Omaña Rojas CC-BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Milk_under_the_microscope.webm)
-        {{< video src="https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Milk_under_the_microscope.webm/Milk_under_the_microscope.webm.480p.vp9.webm" controls="yes" >}}
-
+      title: Partner
+      items:
+        - icon: /images/nfdi4microbiota.png
+          name: NFDI4Microbiota
+        - icon: /images/ZBMED17_d_rgb_web_cl.jpg
+          name: ZB MED
+        - icon: /images/TH_Köln_Logo.png
+          name: TH Köln
+        - icon: /images/Logo_NFDI4Memory.svg
+          name: NFDI4Memory
+        - icon: /images/LogoBERD.png
+          name: BERD
+        - icon: /images/Logo-KonsortSWD-NFDI4society.svg
+          name: KonsortSWD
     design:
-      columns: '1'
+      columns: '3'
+
 
   - block: experience
     content:
@@ -41,23 +50,55 @@ sections:
       # TODO: don't forget to change the dates of the phases. Leave the 'date_end' of your current phase empty, so it is marked active
       items:
         - title: Initialisation Phase
-          company: First Phase
-          location: completed
-          date_start: '2022-01-01'
-          date_end: '2022-12-01'
-          #description: 
+          company: Current phase
+          location: ongoing
+          date_start: '2025-02-01'
+          date_end: '2026-01-31'
         - title: Integration Phase
-          company: Second Phase
-          location: current
-          date_start: '2023-01-01'
-          date_end: ''
-          #description: 
-        - title: Ramp-up Phase
-          company: Third Phase
+          company: Next phase
           location: planned
-          date_start: '2025-01-01'
-          date_end: '2100-12-31'
-          #description: 
+          date_start: '2026-02-01'
+          date_end: '2028-01-31'
+        - title: Ramp up Phase
+          company: Following phase
+          location: planned
+          date_start: '2028-02-01'
+          date_end: '2030-01-31'
     design:
       columns: '1'
+    design:
+      columns: '1'
+
+  # Team
+  - block: people
+    content:
+      title: Team
+      text: 
+      people:
+        - name: Prof. Dr. Konrad Förstner
+          role: Principal Investigator
+          image: /images/Konrad_Förstner.jpg
+        - name: Prof. Dr. Mirjam Blümm
+          role: Principal Investigator
+          image: /images/Mirjam_Bluemm.jpeg
+        - name: Mareike Wohltmann
+          role: Project Manager
+          image: /images/Mareike_Wohltmann.jpg
+        - name: Sina Bock
+          role: Project Member
+          image: /images/Sina_Bock.jpg
+        - name: Justine Vandendorpe
+          role: Project Member
+          image: /images/Justine_Vandendorpe.jpg
+        - name: Marco Uebachs
+          role: Project Member
+          image: /images/Marco_Uebachs.jpg
+        - name: Rabea Müller
+          role: Project Member
+          image: /images/Mueller_Rabea.jpg
+        - name: Birte Lindstädt
+          role: Project Member
+          image: /images/Birte_Lindstaedt.jpg
+    design:
+      columns: '3'
 ---
