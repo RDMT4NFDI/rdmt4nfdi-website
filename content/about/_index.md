@@ -20,7 +20,7 @@ sections:
     content:
       title: Partner
       text: |
-        ![NFDI4Microbiota](/images/nfdi4microbiota.png)  
+        ![NFDI4Microbiota](static/images/nfdi4microbiota.png)  
         ![ZB MED](/images/ZBMED17_d_rgb_web_cl.jpg)  
         ![TH Köln](/images/TH_Köln_Logo.png)  
         ![NFDI4Memory](/images/Logo_NFDI4Memory.svg)  
