@@ -37,21 +37,19 @@ sections:
         </div>
         -->
 
-      email: [rdmtraining4nfdi@lists.nfdi.de](mailto:rdmtraining4nfdi@lists.nfdi.de) (reach the whole RDMT Community) & [rdmtraining4nfdi-orga@lists.nfdi.de](mailto:rdmtraining4nfdi-orga@lists.nfdi.de) (contact the team)
+      contact_links:
+        - icon: envelope
+          icon_pack: fas
+          name: Reach the whole RDMT Community
+          link: "mailto:rdmtraining4nfdi@lists.nfdi.de"
+        - icon: envelope
+          icon_pack: fas
+          name: Contact the team
+          link: "mailto:rdmtraining4nfdi-orga@lists.nfdi.de"
 
-
-      # appointment_url: 'https://terminplaner6.dfn.de/'
-      
-      # contact_links:
-      #   - icon: comments
-      #     icon_pack: fas
-      #     name: Discuss on Forum
-      #     link: 'https://discourse.gohugo.io'
-    
-      # Automatically link email and phone or display as text?
       autolink: false
 
     design:
-      columns: '1'
+      columns: "1"
 ---
 
