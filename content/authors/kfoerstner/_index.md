@@ -10,6 +10,9 @@ last_name: Förstner
 # Is this the primary user of the site?
 superuser: false
 
+# Avatar
+avatar: "avatar.jpg"
+
 # Role/position
 role: Principal investigator
 
