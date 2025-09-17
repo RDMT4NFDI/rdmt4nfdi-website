@@ -65,21 +65,19 @@ sections:
     design:
       columns: '1'
 
-  # Team
   - block: people
     content:
-      title: Team
-      users:
-        - blindstaedt
-        - jvandendorpe
-        - kfoerstner
-        - mbluemm
-        - melhossary
-        - muebachs
-        - mwohltmann
-        - rmueller
-        - sbock
+      title: Meet the Team
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+          - Project Team Members
+          - Principal Investigators
+      sort_by: Params.last_name
+      sort_ascending: true
     design:
-      columns: '3'
+      show_interests: false
+      show_role: true
+      show_social: true
 
 ---
