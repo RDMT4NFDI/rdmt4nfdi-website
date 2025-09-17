@@ -3,8 +3,6 @@ title: About
 date: 2024-07-24
 type: landing
 
-# TODO change content
-
 sections:
   - block: markdown
     content:
@@ -15,19 +13,45 @@ sections:
     design:
       columns: '1'
   
-  # # Partner
+      
   - block: markdown
     content:
-      title: Partner
+      title: Lead Institutions
       text: |
-        <img src="/images/nfdi4microbiota.png" height="80"/>  
-        <img src="/images/ZBMED17_d_rgb_web_cl.jpg" height="80"/>  
-        <img src="/images/TH_Köln_Logo.png" height="80"/>  
-        <img src="/images/Logo_NFDI4Memory.svg" height="80"/>  
-        <img src="/images/LogoBERD.png" height="80"/>  
-        <img src="/images/Logo-KonsortSWD-NFDI4society.svg" height="80"/>  
+        <div class="row">
+          <div class="col-md-3 text-center">
+            
+          </div>
+          <div class="col-md-3 text-center">
+            <img src="/images/ZBMED17_d_rgb_web_cl.jpg" alt="ZB MED" class="img-fluid" style="max-height: 100px;">
+          </div>
+          <div class="col-md-3 text-center">
+            <img src="/images/TH_Köln_Logo.png" alt="TH Köln" class="img-fluid" style="max-height: 100px;">
+          </div>
+        </div>
     design:
-      columns: '3'
+      columns: '1'
+
+  - block: markdown
+    content:
+      title: Partners
+      text: |
+        <div class="row">
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/nfdi4microbiota.png" alt="NFDI4Microbiota" class="img-fluid" style="max-height: 80px;">
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/Logo_NFDI4Memory.svg" alt="NFDI4Memory" class="img-fluid" style="max-height: 80px;">
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/LogoBERD.png" alt="BERD" class="img-fluid" style="max-height: 80px;">
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/Logo-KonsortSWD-NFDI4society.svg" alt="NFDI4Society" class="img-fluid" style="max-height: 80px;">
+          </div>
+        </div>
+    design:
+      columns: '1'
 
 
 
