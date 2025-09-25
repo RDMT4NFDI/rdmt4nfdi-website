@@ -11,7 +11,7 @@ last_name: Carberry
 superuser: false
 
 # Role/position
-role: Principal investigator
+role: Project Team Members
 
 # Organizations/Affiliations
 organizations:
@@ -61,7 +61,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget, see the existing groups in the people folder)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators
+  - Project Team Members
 ---
 
 Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of RDMT4NFDI.
