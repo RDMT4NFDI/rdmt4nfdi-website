@@ -1,11 +1,11 @@
 ---
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
-title: Josiah S. Carberry
+title: Sina Bock
 
 # Full Name (for SEO)
-first_name: Josiah Stinkney
-last_name: Carberry
+first_name: Sina
+last_name: Bock
 
 # Is this the primary user of the site?
 superuser: false
