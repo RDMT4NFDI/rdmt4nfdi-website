@@ -36,7 +36,7 @@ social:
     link: https://orcid.org/0009-0006-4329-7619
   - icon: github
     icon_pack: fab
-    link: www.github.com/mareikewo
+    link: https://github.com/mareikewo
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/mareike-wohltmann-0b1568214/
