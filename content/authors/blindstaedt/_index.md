@@ -11,7 +11,7 @@ last_name: Lindstädt
 superuser: false
 
 # Role/position
-role: Principal investigator
+role: Principal Investigator
 
 # Organizations/Affiliations
 organizations:
