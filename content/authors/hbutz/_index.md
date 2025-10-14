@@ -19,7 +19,7 @@ authors:
 avatar: "avatar.jpg"
 
 # Role/position
-role: Project Team Members
+role: Project Team Member
 
 # Organizations/Affiliations
 organizations:

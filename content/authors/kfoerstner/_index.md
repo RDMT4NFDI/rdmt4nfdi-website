@@ -19,7 +19,7 @@ authors:
 avatar: "avatar.jpg"
 
 # Role/position
-role: Principal investigator
+role: Principal Investigator
 
 # Organizations/Affiliations
 organizations:
