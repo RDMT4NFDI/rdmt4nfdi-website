@@ -15,37 +15,26 @@ role: Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: 'Brown University: Providence, RI, US'
-    url: 'http://www.brown.edu/'
+  - name: 'TH Cologne'
+    #url: 'http://www.brown.edu/'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of RDMT4NFDI.
+bio: Marco Uebachs is a research associate at TH Cologne, working on the collection for the RDMT4NFDI Project (Work Package 1).
 
 interests:
-  - Psychoceramics
-  - Cracked pots
-  - Amphibious epistemologies
+  - Virtual Reality
+  - Human-Computer-Interaction
+  - Gamification and Patterns
 
-education:
-  courses:
-    - course: tba
-      institution: tba
-      year: 2000
-    - course: tba
-      institution: tba
-      year: 2000
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: ror
-    icon_pack: ai
-    link: https://ror.org/05gq02987
-  - icon: orcid
-    icon_pack: ai
-    link: https://orcid.org/0000-0002-1825-0097
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/MUebachs
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -53,7 +42,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'marco.uebachs@th-koeln.de'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -64,4 +53,4 @@ user_groups:
   - Project Team Members
 ---
 
-Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of RDMT4NFDI.
+Marco Uebachs is a research associate at TH Cologne, working on the collection for the RDMT4NFDI Project (Work Package 1).

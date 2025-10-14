@@ -15,37 +15,31 @@ role: Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: 'Brown University: Providence, RI, US'
-    url: 'http://www.brown.edu/'
+  - name: 'ZB MED – Information Centre for Life Sciences'
+    url: 'https://www.zbmed.de/kontakt/mareike-wohltmann'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of RDMT4NFDI.
+bio: Mareike Wohltmann manages the project and outreach activities within RDMTraining4NFDI. She leads the evaluation of training formats (Work Package 2) and is responsible for networking activities (Work Packages 4) within the NFDI and the broader RDM community, including international collaboration.
 
 interests:
-  - Psychoceramics
-  - Cracked pots
-  - Amphibious epistemologies
-
-education:
-  courses:
-    - course: tba
-      institution: tba
-      year: 2000
-    - course: tba
-      institution: tba
-      year: 2000
+  - Community Building
+  - Didactics & Motivation
+  - Project Development
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: ror
-    icon_pack: ai
-    link: https://ror.org/05gq02987
   - icon: orcid
     icon_pack: ai
-    link: https://orcid.org/0000-0002-1825-0097
+    link: https://orcid.org/0009-0006-4329-7619
+  - icon: github
+    icon_pack: fab
+    link: www.github.com/mareikewo
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/mareike-wohltmann-0b1568214/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -53,7 +47,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'wohltmann@zbmed.de'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -64,4 +58,4 @@ user_groups:
   - Project Team Members
 ---
 
-Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of RDMT4NFDI.
+Mareike Wohltmann manages the project and outreach activities within RDMTraining4NFDI. She leads the evaluation of training formats (Work Package 2) and is responsible for networking activities (Work Packages 4) within the NFDI and the broader RDM community, including international collaboration.

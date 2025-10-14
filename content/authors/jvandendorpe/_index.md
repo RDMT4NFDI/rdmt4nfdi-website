@@ -15,37 +15,41 @@ role: Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: 'Brown University: Providence, RI, US'
-    url: 'http://www.brown.edu/'
+  - name: 'ZB MED - Information Centre for Life Sciences'
+    url: 'https://www.zbmed.de/kontakt/justine-vandendorpe'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of RDMT4NFDI.
+bio: Justine Vandendorpe is in charge of coordination the training events in Work Package 2 within RDMTraining4NFDI. This involves organising training on RDM in various formats. She is also a Data Steward within NFDI4Microbiota, where her main responsibilities are coordinating training and leading the Helpdesk & Support team.
 
 interests:
-  - Psychoceramics
-  - Cracked pots
-  - Amphibious epistemologies
+  - Training
+  - Reproducibility
+  - Scientific methods
 
-education:
-  courses:
-    - course: tba
-      institution: tba
-      year: 2000
-    - course: tba
-      institution: tba
-      year: 2000
+
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: ror
-    icon_pack: ai
-    link: https://ror.org/05gq02987
+
+    
   - icon: orcid
     icon_pack: ai
-    link: https://orcid.org/0000-0002-1825-0097
+    link: https://orcid.org/0000-0002-9421-8582
+  
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/jvddorpe
+    
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/jvddorpe/
+    
+  - icon: researchgate
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Justine-Vandendorpe?ev=hdr_xprf
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -64,4 +68,4 @@ user_groups:
   - Project Team Members
 ---
 
-Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of RDMT4NFDI.
+Justine Vandendorpe is in charge of coordination the training events in Work Package 2 within RDMTraining4NFDI. This involves organising training on RDM in various formats. She is also a Data Steward within NFDI4Microbiota, where her main responsibilities are coordinating training and leading the Helpdesk & Support team.

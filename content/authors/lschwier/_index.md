@@ -1,11 +1,11 @@
 ---
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
-title: Rabea Müller
+title: Lisa Schwier
 
 # Full Name (for SEO)
-first_name: Müller
-last_name: Rabea
+first_name: Schwier
+last_name: Lisa
 
 # Is this the primary user of the site?
 superuser: false
@@ -15,17 +15,16 @@ role: Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: 'ZB MED - Information Centre for Life Sciences'
-    url: 'https://www.zbmed.de/kontakt/rabea-mueller/'
+  - name: 'Service Steward, ITC der RWTH Aachen University | Base4NFDI'
+    url: 'https://base4nfdi.de/about/people/service-stewards'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Rabea Müller leads the Department of Data Science and Data Literacy at ZB MED - Information Centre for Life Sciences.
+#bio:
 
 interests:
-  - Data Science Training
-  - Data Literacy
-  - Reproducible Research
-  - Open Science
+  - Language and Communication
+  - Research methods
+  - Digitization and AI
 
 
 # Social/Academic Networking
@@ -35,13 +34,10 @@ interests:
 social:
   - icon: orcid
     icon_pack: ai
-    link: https://orcid.org/0000-0002-3096-8237
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/RabeaMue
+    link: https://orcid.org/0009-0006-0299-4813
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/rabea-m%C3%BCller-60836417b/
+    link: https://www.linkedin.com/in/lisaschwier/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -49,7 +45,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'muellerr@zbmed.de'
+email: 'schwier@itc.rwth-aachen.de'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -60,4 +56,3 @@ user_groups:
   - Project Team Members
 ---
 
-Rabea Müller leads the Department of Data Science and Data Literacy at ZB MED - Information Centre for Life Sciences.
