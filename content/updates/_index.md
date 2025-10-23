@@ -31,7 +31,7 @@ sections:
     content:
       title: Next Phase of RDMTraining4NFDI
       text: |
-        The RDMTraining4NFDI team submitted the [proposal for the integration phase](https://doi.org/10.5281/zenodo.16927331) on July 30. You can find the proposal here. Thanks to all supporters from the section, the AP5 group, the use cases, base34NFDI, and partners beyond NFDI. Feedback on the proposal is expected by October 10, 2025.
+        The RDMTraining4NFDI team submitted the [proposal for the integration phase](https://doi.org/10.5281/zenodo.16927331) on July 30. You can find the proposal here. Thanks to all supporters from the section, the AP5 group, the use cases, base4NFDI, and partners beyond NFDI. Feedback on the proposal is expected by October 10, 2025.
 
     design:
       columns: '1'
