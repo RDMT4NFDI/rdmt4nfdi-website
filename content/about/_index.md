@@ -71,7 +71,7 @@ sections:
       items:
         - title: Initialisation Phase
           company: Current phase
-          location: ongoing
+          location: current
           date_start: '2025-02-01'
           date_end: '2026-01-31'
         - title: Integration Phase
