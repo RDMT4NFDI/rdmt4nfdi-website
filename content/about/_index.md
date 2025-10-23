@@ -29,7 +29,7 @@ sections:
             <img src="/images/ZBMED17_d_rgb_web_cl.jpg" alt="ZB MED" class="img-fluid" style="max-height: 100px;">
           </div>
           <div class="col-md-3 text-center">
-            <img src="/images/TH_Köln_Logo.png" alt="TH Köln" class="img-fluid" style="max-height: 100px;">
+            <img src="/images/TH_Koeln_Logo.svg" alt="TH Köln" class="img-fluid" style="max-height: 100px;">
           </div>
         </div>
     design:
