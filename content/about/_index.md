@@ -12,6 +12,7 @@ sections:
 
     design:
       columns: '1'
+      align: center
   
       
   - block: markdown
