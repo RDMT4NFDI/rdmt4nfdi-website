@@ -8,11 +8,13 @@ sections:
     content:
       title: Mission
       text: |
-        Our mission is to improve research data management by providing tools, training, and community support.
+        <div style="text-align: center;">
+          Our mission is to improve research data management by providing tools, training, and community support.
+        </div>
 
     design:
       columns: '1'
-      align: center
+
   
       
   - block: markdown
