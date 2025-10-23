@@ -8,57 +8,27 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: What is RDMT4NFDI?
-      subtitle: The most needed basic service yet.
+      title: Check out our latest news
       text: |
-        And there's a lot more to discover.
+        <iframe src="https://nfdi.social/@RDMT4NFDI/115168187501292894/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://nfdi.social/embed.js" async="async"></script>
 
     design:
       columns: '1'
 
   - block: markdown
     content:
-      title: And what are the details?
+      title: Training Offering
       text: |
-        Scientific data should in any case follow the [FAIR principles](https://www.go-fair.org/fair-principles/), which promote findability, accessibility, interoperability and re-usability of research data. 
-
-        And here is a video of milk under a microscope, © [Miguel Angel Omaña Rojas CC-BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Milk_under_the_microscope.webm)
-        {{< video src="https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Milk_under_the_microscope.webm/Milk_under_the_microscope.webm.480p.vp9.webm" controls="yes" >}}
+        In October, November, and December, we offer a variety of RDM modules in different formats for Data Stewards and RDM multipliers from our cooperating consortia. The modules cover both soft skills and RDM topics (e.g., Python, Git, or didactics). Here you can find the [registration form](: https://cryptpad.fr/form/#/3/form/view/aed710ba50fbfc14067dbf176a426ae6/), programme information, and contact details. Is your consortia not yet part of our cooperating network? Please contact us — we’ll see what we can do.
 
     design:
       columns: '1'
 
-  - block: experience
     content:
-      title: In which development phase is RDMT4NFDI?
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: January 2006
-      # Experiences.
-      #   Add/remove as many experience `items` below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      # TODO: don't forget to change the dates of the phases. Leave the 'date_end' of your current phase empty, so it is marked active
-      items:
-        - title: Initialisation Phase
-          company: First Phase
-          location: completed
-          date_start: '2022-01-01'
-          date_end: '2022-12-01'
-          #description: 
-        - title: Integration Phase
-          company: Second Phase
-          location: current
-          date_start: '2023-01-01'
-          date_end: ''
-          #description: 
-        - title: Ramp-up Phase
-          company: Third Phase
-          location: planned
-          date_start: '2025-01-01'
-          date_end: '2100-12-31'
-          #description: 
+      title: Next Phase of RDMTraining4NFDI
+      text: |
+        The RDMTraining4NFDI team submitted the [proposal for the integration phase](https://doi.org/10.5281/zenodo.16927331) on July 30. You can find the proposal here. Thanks to all supporters from the section, the AP5 group, the use cases, base34NFDI, and partners beyond NFDI. Feedback on the proposal is expected by October 10, 2025.
+
     design:
       columns: '1'
 ---
