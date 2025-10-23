@@ -23,18 +23,10 @@ sections:
     design:
       columns: '1'
 
+
   - block: markdown
     content:
       title: Consultancy on Training Skills & Methodologies
-      text: |
-        Are you developing or delivering an RDM training? Beyond the content itself, the structure, methods, and your training skills are key to a successful training. We support you in delivering your training effectively by offering consultancy and training in skills and methodologies, drawing on approaches from The Carpentries and the Train-the-Trainer programme.
-
-    design:
-      columns: '1'
-
-  - block: markdown
-    content:
-      title: Consultancy on Training Skils & Methodologies
       text: |
         Are you developing or delivering an RDM training? Beyond the content itself, the structure, methods, and your training skills are key to a successful training. We support you in delivering your training effectively by offering consultancy and training in skills and methodologies, drawing on approaches from [The Carpentries](https://carpentries.org/) and the [Train-the-Trainer programme](https://zenodo.org/records/10122153).
 
