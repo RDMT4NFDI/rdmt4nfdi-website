@@ -73,7 +73,7 @@ sections:
           company: Current phase
           location: current
           date_start: '2025-02-01'
-          date_end: '2026-01-31'
+          date_end: ''
         - title: Integration Phase
           company: Next phase
           location: planned
