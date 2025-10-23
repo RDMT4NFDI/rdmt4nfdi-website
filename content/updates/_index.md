@@ -1,6 +1,6 @@
 ---
-title: About
-date: 2024-07-24
+title: Updates
+date: 2025-10-23
 type: landing
 
 # TODO change content
