@@ -10,7 +10,10 @@ sections:
     content:
       title: Check out our latest news
       text: |
-        <iframe src="https://nfdi.social/@RDMT4NFDI/115168187501292894/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://nfdi.social/embed.js" async="async"></script>
+        <div style="display: flex; justify-content: center;">
+          <iframe src="https://nfdi.social/@RDMT4NFDI/115168187501292894/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe>
+          <script src="https://nfdi.social/embed.js" async="async"></script>
+        </div>
 
     design:
       columns: '1'
