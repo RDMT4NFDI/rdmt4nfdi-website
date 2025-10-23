@@ -22,7 +22,7 @@ sections:
     content:
       title: Training Offering
       text: |
-        In October, November, and December, we offer a variety of RDM modules in different formats for Data Stewards and RDM multipliers from our cooperating consortia. The modules cover both soft skills and RDM topics (e.g., Python, Git, or didactics). Here you can find the [registration form](https://cryptpad.fr/form/#/3/form/view/aed710ba50fbfc14067dbf176a426ae6/), programme information, and contact details. Is your consortia not yet part of our cooperating network? Please contact us — we’ll see what we can do.
+        In October, November, and December, we offer a variety of RDM modules in different formats for Data Stewards and RDM multipliers from our cooperating consortia. The modules cover both soft skills and RDM topics (e.g., Python, Git, or didactics). Here you can find the [registration form](https://cryptpad.fr/form/#/3/form/view/aed710ba50fbfc14067dbf176a426ae6/), programme information, and contact details. Is your consortia not yet part of our cooperating network? Please [contact us](mailto:rdmtraining4nfdi-orga@lists.nfdi.de) — we’ll see what we can do.
 
     design:
       columns: '1'
