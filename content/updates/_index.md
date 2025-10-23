@@ -23,7 +23,8 @@ sections:
 
     design:
       columns: '1'
-
+    
+  - block: markdown
     content:
       title: Next Phase of RDMTraining4NFDI
       text: |
