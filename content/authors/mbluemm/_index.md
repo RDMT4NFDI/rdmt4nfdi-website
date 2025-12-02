@@ -11,7 +11,7 @@ last_name: Blümm
 superuser: false
 
 # Role/position
-role: Principal Investigator
+role: Project Team Member
 
 # Organizations/Affiliations
 organizations:
@@ -50,7 +50,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget, see the existing groups in the people folder)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators
+  - Project Team Member
 ---
 
 Mirjam Blümm is working as professor for eScience and research data management at Cologne University of Aplied Sciences (TH Köln).
