@@ -92,7 +92,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget, see the existing groups in the people folder)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Project Team Member
+  - Project Team Members
 ---
 
 Konrad Förstner is professor for Data and Information Literacy at TH Köln and Leads the Data Science and Servic Unit at ZB MED.

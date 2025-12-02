@@ -57,7 +57,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget, see the existing groups in the people folder)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Project Team Member
+  - Project Team Members
 ---
 
 Birte Lindstädt is head of the department research data management at ZB MED and deeply involved in the NFDI. She is part of two NFDI consortia (NFDI4Healt, FAIRagro) and two base services (RDMTraining4NFDI, DMP4NFDI)
