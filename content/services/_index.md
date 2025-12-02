@@ -18,6 +18,7 @@ sections:
 
         Keep updated by following our Mastodon account and Zenodo community.
     design:
+      columns: '1'
 
   - block: markdown
     content:
