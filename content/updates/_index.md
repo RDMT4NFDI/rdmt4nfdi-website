@@ -22,7 +22,7 @@ sections:
     content:
       title: Training Offering
       text: |
-        In October, November, and December, we offer a variety of RDM modules in different formats for Data Stewards and RDM multipliers from our cooperating consortia. The modules cover both soft skills and RDM topics (e.g., Python, Git, or didactics). Here you can find the [registration form](https://cryptpad.fr/form/#/2/form/view/2AmazK1C85fLQzyj7kru7cefe3lYb064xJMEtHCJ7uc), programme information, and contact details. Is your consortia not yet part of our cooperating network? Please [contact us](mailto:rdmtraining4nfdi-orga@lists.nfdi.de) — we’ll see what we can do.
+        In October, November, and December, we offer a variety of RDM modules in different formats for Data Stewards and RDM multipliers from our cooperating consortia. The modules cover both soft skills and RDM topics (e.g., Python, Git, or didactics). Here you can find the [programme information](https://cryptpad.fr/pad/#/2/pad/edit/6JhfzBcCJpuZEluzRABeJ0J-/), and contact details. Is your consortia not yet part of our cooperating network? Please [contact us](mailto:rdmtraining4nfdi-orga@lists.nfdi.de) — we’ll see what we can do.
 
     design:
       columns: '1'
@@ -31,7 +31,9 @@ sections:
     content:
       title: Next Phase of RDMTraining4NFDI
       text: |
-        The RDMTraining4NFDI team submitted the [proposal for the integration phase](https://doi.org/10.5281/zenodo.16927331) on July 30. You can find the proposal here. Thanks to all supporters from the section, the AP5 group, the use cases, base4NFDI, and partners beyond NFDI. Feedback on the proposal is expected by October 10, 2025.
+        The RDMTraining4NFDI team submitted the proposal for the integration phase on July 30. You can find the proposal [here](https://doi.org/10.5281/zenodo.16927331). We warmly thank all supporters from the section, the AP5 group, the use cases, base34NFDI, and partners beyond NFDI for their valuable contributions.
+
+        Although the first submission was not approved on October 10, we are optimistic and motivated to submit a revised proposal in January 2026, aiming to further enhance and expand the RDMTraining4NFDI service for the community.
 
     design:
       columns: '1'
