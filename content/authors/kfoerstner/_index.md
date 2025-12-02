@@ -19,7 +19,7 @@ authors:
 avatar: "avatar.jpg"
 
 # Role/position
-role: Project Team Member
+role: Principal Investigator
 
 # Organizations/Affiliations
 organizations:
