@@ -22,9 +22,9 @@ organizations:
 bio: Rabea Müller leads the Department of Data Science and Data Literacy at ZB MED - Information Centre for Life Sciences.
 
 interests:
-  - Data Science Training
-  - Data Literacy
-  - Reproducible Research
+  - Data Science & Data Literacy
+  - Didactics
+  - Technical Implementation
   - Open Science
 
 
