@@ -11,10 +11,10 @@ authors:
 author_notes:
 - ""
 
-date: "2025-08-14"
-doi: "10.5281/zenodo.16761128"
+date: "2025-08-07"
+doi: "10.5281/zenodo.16616812"
 
-publishDate: "2025-10-14T12:32:33Z"
+publishDate: "2025-12-02T08:04:35Z"
 
 publication_types: ["document"]
 
@@ -30,7 +30,7 @@ tags:
 - Data Steward
 featured: false
 
-url_pdf: "https://zenodo.org/api/records/16761128/files/Summer-School-on-Research-Data-Management-for-NFDI-Consortia.pdf/content"
+url_pdf: ""
 url_code: ""
 url_dataset: ""
 url_poster: ''
