@@ -24,7 +24,7 @@ sections:
     content:
       title: Training on Research Data Management
       text: |
-        Would you like to train yourself or RDM multipliers as Data Stewards or RDM Trainers within your consortia? Take a look at our current offerings (FIX ME: link to news) and register, or contact us by email.
+        Would you like to train yourself or RDM multipliers as Data Stewards or RDM Trainers within your consortia? Take a look at our [current offerings](https://cryptpad.fr/pad/#/2/pad/edit/6JhfzBcCJpuZEluzRABeJ0J-/) and register, or contact us by email.
 
     design:
       columns: '1'
