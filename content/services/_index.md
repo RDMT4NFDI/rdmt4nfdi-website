@@ -16,9 +16,7 @@ sections:
         ## RDM training materials needed?
         For now, we are exploring options to help you easily find RDM training materials across consortia. In the meantime, you can contact us if you need assistance or recommendations for reusing training materials.
 
-        Keep updated by following our \
-        [Mastodon account](https://nfdi.social/@RDMT4NFDI) and \
-        [Zenodo community](https://zenodo.org/communities/rdmt4nfdi/records?q=&l=list&p=1&s=10&sort=newest).
+        Keep updated by following our [Mastodon account](https://nfdi.social/@RDMT4NFDI) and [Zenodo community](https://zenodo.org/communities/rdmt4nfdi/records?q=&l=list&p=1&s=10&sort=newest).
     design:
       columns: '1'
 
