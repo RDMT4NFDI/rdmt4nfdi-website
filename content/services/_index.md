@@ -8,10 +8,9 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: How to interacts with us?
+      title: Certification in RDM
       text: |
-        ## Certification in RDM
-        Would you like to get certified, or is your consortia looking for certified training? We are the NFDI service exploring how certification in RDM training could be implemented and what options are available. 
+        Would you like to get certified, or is your consortium looking for certified training? We are the Base4NFDI Service exploring how certification in RDM training could be implemented and what options are available. 
 
         Keep updated by following our [Mastodon account](https://nfdi.social/@RDMT4NFDI) and [Zenodo community](https://zenodo.org/communities/rdmt4nfdi/records?q=&l=list&p=1&s=10&sort=newest).
     design:
@@ -21,7 +20,7 @@ sections:
     content:
       title: Training on Research Data Management
       text: |
-        Would you like to train yourself or RDM multipliers as Data Stewards or RDM Trainers within your consortia? Take a look at our [current offerings](https://cryptpad.fr/pad/#/2/pad/edit/6JhfzBcCJpuZEluzRABeJ0J-/) and register, or contact us by email.
+        Would you like to train yourself or RDM multipliers such as Data Stewards or RDM Trainers within your consortia? Take a look at our [current offerings](https://cryptpad.fr/pad/#/2/pad/edit/6JhfzBcCJpuZEluzRABeJ0J-/) and register, or contact us by [email](mailto:rdmtraining4nfdi-orga@lists.nfdi.de).
 
     design:
       columns: '1'
@@ -40,7 +39,7 @@ sections:
     content:
       title: Supporting Materials 
       text: |
-        Discover our publication with reusable materials, including a registration form for training events. The content blueprint gives you an overview of current training approaches - a good starting point in RDM training or for deepening your expertise.
+        Discover our publications with reusable materials, including a registration form for training events. Our analysis of concepts on RDM training resulted in a design document which gives you an overview of conceptional, didactical and technical aspects related to RDM training.
 
     design:
       columns: '1'
