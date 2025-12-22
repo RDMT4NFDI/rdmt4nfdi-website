@@ -9,7 +9,7 @@ sections:
       title: Mission
       text: |
         <div style="text-align: center;">
-          Our mission is to improve research data management by providing tools, training, and community support.
+          Our mission is to improve research data management by providing training, and community support.
         </div>
 
     design:
@@ -85,8 +85,8 @@ sections:
         - title: Ramp up Phase
           company: Following phase
           location: planned
-          date_start: '2028-02-01'
-          date_end: '2030-01-31'
+          date_start: 'tbd'
+          date_end: 'tbd'
     design:
       columns: '1'
     
