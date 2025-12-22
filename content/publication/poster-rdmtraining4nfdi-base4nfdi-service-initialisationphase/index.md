@@ -12,9 +12,9 @@ author_notes:
 date: "2025-10-01"
 doi: "10.5281/zenodo.17084852"
 
-publishDate: "2025-12-22T08:33:50Z"
+publishDate: "2025-12-22T08:36:53Z"
 
-publication_types: ["graphic"]
+publication_types: ["poster"]
 
 publication: ""
 publication_short: ""
