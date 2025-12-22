@@ -12,7 +12,7 @@ author_notes:
 date: "2025-11-12"
 doi: "10.5281/zenodo.17588748"
 
-publishDate: "2025-12-22T08:36:53Z"
+publishDate: "2025-12-22T08:39:06Z"
 
 publication_types: ["presentation"]
 
@@ -45,5 +45,3 @@ projects: []
 
 slides: ""
 ---
-
-Add the publication full text or supplementary notes here.

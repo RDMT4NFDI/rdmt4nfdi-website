@@ -15,7 +15,7 @@ author_notes:
 date: "2024-12-18"
 doi: "10.5281/zenodo.14515223"
 
-publishDate: "2025-12-22T08:36:53Z"
+publishDate: "2025-12-22T08:39:06Z"
 
 publication_types: ["conference paper"]
 
@@ -46,5 +46,3 @@ projects: []
 
 slides: ""
 ---
-
-Add the publication full text or supplementary notes here.
