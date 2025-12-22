@@ -15,9 +15,9 @@ author_notes:
 date: "2025-10-23"
 doi: "10.5281/zenodo.17422255"
 
-publishDate: "2025-12-02T08:04:35Z"
+publishDate: "2025-12-22T08:33:50Z"
 
-publication_types: ["document"]
+publication_types: ["software"]
 
 publication: ""
 publication_short: ""

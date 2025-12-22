@@ -13,9 +13,9 @@ author_notes:
 date: "2025-11-24"
 doi: "10.5281/zenodo.17701667"
 
-publishDate: "2025-12-02T08:04:35Z"
+publishDate: "2025-12-22T08:33:50Z"
 
-publication_types: ["document"]
+publication_types: ["speech"]
 
 publication: ""
 publication_short: ""

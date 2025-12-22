@@ -7,9 +7,10 @@ authors:
 - Wohltmann, Mareike
 - Bock, Sina
 - Blümm, Mirjam
-- Vandendorpe, Justine
-- Lindstädt, Birte
 - Müller, Rabea
+- Vandendorpe, Justine
+- Uebachs, Marco
+- Lindstädt, Birte
 - Förstner, Konrad U.
 
 author_notes:
@@ -18,9 +19,9 @@ author_notes:
 date: "2025-08-04"
 doi: "10.5281/zenodo.16736281"
 
-publishDate: "2025-12-02T08:04:35Z"
+publishDate: "2025-12-22T08:33:50Z"
 
-publication_types: ["document"]
+publication_types: ["paper-conference"]
 
 publication: ""
 publication_short: ""

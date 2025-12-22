@@ -19,9 +19,9 @@ author_notes:
 date: "2025-11-27"
 doi: "10.5281/zenodo.17737489"
 
-publishDate: "2025-12-02T08:04:35Z"
+publishDate: "2025-12-22T08:33:50Z"
 
-publication_types: ["document"]
+publication_types: ["report"]
 
 publication: ""
 publication_short: ""
