@@ -15,11 +15,11 @@ role: Project Team Member
 
 # Organizations/Affiliations
 organizations:
-  - name: 'TH Cologne'
+  - name: 'TH Köln – University of Applied Sciences'
     #url: 'http://www.brown.edu/'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Marco Uebachs is a research associate at TH Cologne, working on the collection for the RDMT4NFDI Project (Work Package 1).
+bio: Marco Uebachs is a research associate at TH Köln – University of Applied Sciences, working on a complementary collection which is documenting the findings of the Content Blueprint.
 
 interests:
   - Virtual Reality
@@ -53,4 +53,4 @@ user_groups:
   - Project Team Members
 ---
 
-Marco Uebachs is a research associate at TH Cologne, working on the collection for the RDMT4NFDI Project (Work Package 1).
+Marco Uebachs is a research associate at TH Köln – University of Applied Sciences, working on a complementary collection which is documenting the findings of the Content Blueprint.

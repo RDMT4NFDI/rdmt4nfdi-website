@@ -19,7 +19,7 @@ organizations:
     url: 'https://base4nfdi.de/about/people/service-stewards'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-#bio:
+bio: Lisa is enthusiastic about communication and languages, supporting RDM training as a Service Steward and helping to develop the service while applying her experience in qualitative and quantitative research, as well as her organizational and communication skills.​​​​​​​
 
 interests:
   - Language and Communication
@@ -56,3 +56,4 @@ user_groups:
   - Project Team Members
 ---
 
+Lisa is enthusiastic about communication and languages, supporting RDM training as a Service Steward and helping to develop the service while applying her experience in qualitative and quantitative research, as well as her organizational and communication skills.​​​​​​​

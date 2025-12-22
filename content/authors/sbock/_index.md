@@ -15,11 +15,11 @@ role: Project Team Member
 
 # Organizations/Affiliations
 organizations:
-  - name: 'TH Cologne'
+  - name: 'TH Köln – University of Applied Sciences'
    # url: 'http://www.brown.edu/'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Sina Bock is a research associate at TH Köln. She is working on the collection of OER (Work Package 1) and on identifying a credentialing framework within the NFDI and beyond (Work Package 3).
+bio: Sina Bock is a research associate at TH Köln – University of Applied Sciences. She is committed to estalbishing a knowledge base on RDM training and currently drafting a community-driven concept for certifying the acquisition of RDM competencies.
 
 interests:
   - Analytical Thinking
@@ -34,6 +34,10 @@ social:
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0001-6754-8810
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/SinaNLRBock
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -52,4 +56,4 @@ user_groups:
   - Project Team Members
 ---
 
-Sina Bock is a research associate at TH Köln. She is working on the collection of OER (Work Package 1) and on identifying a credentialing framework within the NFDI and beyond (Work Package 3).
+Sina Bock is a research associate at TH Köln – University of Applied Sciences. She is committed to estalbishing a knowledge base on RDM training and currently drafting a community-driven concept for certifying the acquisition of RDM competencies.

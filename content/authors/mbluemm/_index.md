@@ -15,11 +15,11 @@ role: Principal Investigator
 
 # Organizations/Affiliations
 organizations:
-  - name: 'TH Cologne'
+  - name: 'TH Köln – University of Applied Sciences'
     url: 'https://www.th-koeln.de/personen/mirjam.bluemm/'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Mirjam Blümm is working as professor for eScience and research data management at Cologne University of Aplied Sciences (TH Köln).
+bio: Mirjam Blümm is working as professor for eScience and research data management at TH Köln – University of Applied Sciences.
 
 #interests:
  # - Psychoceramics
@@ -53,4 +53,4 @@ user_groups:
   - Project Team Members
 ---
 
-Mirjam Blümm is working as professor for eScience and research data management at Cologne University of Aplied Sciences (TH Köln).
+Mirjam Blümm is working as professor for eScience and research data management at TH Köln – University of Applied Sciences.

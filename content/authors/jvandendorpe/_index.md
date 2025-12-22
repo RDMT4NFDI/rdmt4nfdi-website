@@ -19,7 +19,7 @@ organizations:
     url: 'https://www.zbmed.de/kontakt/justine-vandendorpe'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Justine Vandendorpe is in charge of coordination the training events in Work Package 2 within RDMTraining4NFDI. This involves organising training on RDM in various formats. She is also a Data Steward within NFDI4Microbiota, where her main responsibilities are coordinating training and leading the Helpdesk & Support team.
+bio: Justine Vandendorpe is in charge of coordinating the training events in Work Package 2 within RDMTraining4NFDI. This involves organising training on RDM in various formats. She is also a Data Steward within NFDI4Microbiota, where her main responsibilities are coordinating training and leading the Helpdesk & Support team.
 
 interests:
   - Training
