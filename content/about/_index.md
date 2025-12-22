@@ -85,8 +85,8 @@ sections:
         - title: Ramp up Phase
           company: Following phase
           location: planned
-          date_start: 'tbd'
-          date_end: 'tbd'
+          date_start: '2028-xx-xx'
+          date_end: '2030-xx-xx'
     design:
       columns: '1'
     
