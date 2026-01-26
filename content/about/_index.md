@@ -3,30 +3,61 @@ title: About
 date: 2024-07-24
 type: landing
 
-# TODO change content
-
 sections:
   - block: markdown
     content:
-      title: What is RDMT4NFDI?
-      subtitle: The most needed basic service yet.
+      title: Mission
       text: |
-        And there's a lot more to discover.
+        <div style="text-align: center;">
+          Our mission is to improve research data management by providing training, and community support.
+        </div>
 
+    design:
+      columns: '1'
+
+  
+      
+  - block: markdown
+    content:
+      title: Lead Institutions
+      text: |
+        <div class="row">
+          <div class="col-md-3 text-center">
+            
+          </div>
+          <div class="col-md-3 text-center">
+            <img src="/images/ZBMED17_d_rgb_web_cl.jpg" alt="ZB MED" class="img-fluid" style="max-height: 100px;">
+          </div>
+          <div class="col-md-3 text-center">
+            <img src="/images/TH_Koeln_Logo.svg" alt="TH Köln" class="img-fluid" style="max-height: 100px;">
+          </div>
+        </div>
     design:
       columns: '1'
 
   - block: markdown
     content:
-      title: And what are the details?
+      title: Partners
       text: |
-        Scientific data should in any case follow the [FAIR principles](https://www.go-fair.org/fair-principles/), which promote findability, accessibility, interoperability and re-usability of research data. 
-
-        And here is a video of milk under a microscope, © [Miguel Angel Omaña Rojas CC-BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Milk_under_the_microscope.webm)
-        {{< video src="https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Milk_under_the_microscope.webm/Milk_under_the_microscope.webm.480p.vp9.webm" controls="yes" >}}
-
+        <div class="row">
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/nfdi4microbiota.png" alt="NFDI4Microbiota" class="img-fluid" style="max-height: 80px;">
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/Logo_NFDI4Memory.svg" alt="NFDI4Memory" class="img-fluid" style="max-height: 80px;">
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/LogoBERD.png" alt="BERD" class="img-fluid" style="max-height: 80px;">
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/Logo-KonsortSWD-NFDI4society.svg" alt="NFDI4Society" class="img-fluid" style="max-height: 80px;">
+          </div>
+        </div>
     design:
       columns: '1'
+
+
+
 
   - block: experience
     content:
@@ -42,23 +73,21 @@ sections:
       # TODO: don't forget to change the dates of the phases. Leave the 'date_end' of your current phase empty, so it is marked active
       items:
         - title: Initialisation Phase
-          company: First Phase
-          location: completed
-          date_start: '2022-01-01'
-          date_end: '2022-12-01'
-          #description: 
-        - title: Integration Phase
-          company: Second Phase
+          company: Current phase
           location: current
-          date_start: '2023-01-01'
+          date_start: '2025-02-01'
           date_end: ''
-          #description: 
-        - title: Ramp-up Phase
-          company: Third Phase
+        - title: Integration Phase
+          company: Next phase
           location: planned
-          date_start: '2025-01-01'
-          date_end: '2100-12-31'
-          #description: 
+          date_start: '2026-02-01'
+          date_end: '2028-01-31'
+        - title: Ramp up Phase
+          company: Following phase
+          location: planned
+          date_start: '2028-02-01'
+          date_end: '2030-01-31'
     design:
       columns: '1'
+    
 ---
