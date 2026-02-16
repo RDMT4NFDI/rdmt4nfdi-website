@@ -13,12 +13,15 @@ main:
   - name: Updates
     url: updates
     weight: 30
+  - name: Collection_Demonstrator
+    url: demonstrator
+    weight: 40
   - name: People
     url: people
-    weight: 40
+    weight: 50
   - name: Contact
     url: contact
-    weight: 50
+    weight: 60
   - name: About
     url: about
-    weight: 60
+    weight: 70
