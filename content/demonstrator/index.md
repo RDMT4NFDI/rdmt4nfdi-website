@@ -5,23 +5,20 @@ date: 2026-02-16
 type: page
 ---
 <link href="https://unpkg.com/tabulator-tables@6.3.1/dist/css/tabulator.min.css" rel="stylesheet">
- <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.3.1/dist/js/tabulator.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.3.1/dist/js/tabulator.min.js"></script>
 <script type="text/javascript" src="https://oss.sheetjs.com/sheetjs/xlsx.full.min.js"></script>
 
-<title>RDMT Collection</title>
-</head>
-<body>
   <div>
     <p>RDMTraining4NFDI Collection</p>
-    <p>current state: work in progress <br> version: 0.2.b; data cleaned, whitespace removed <br> date: 2026-02.16</p>
+    <p>current state: work in progress <br> version: 0.2.b; data cleaned, whitespace removed <br> date: 2026-02-16</p>
   </div>
   <br/>
+
 <div id="example-table"></div>
 <link href="/css/tabulator/6.3/tabulator_site.css" rel="stylesheet">
 <script type="text/javascript"> 
           window.version = 6.3
       </script>
-  
   <script src="/js/app.js"></script>
 
   <script src="/js/prettify.js" async defer></script>
@@ -29,11 +26,66 @@ type: page
       
 <script type="text/javascript">
 	TableLoader.trigger();
-
-	</script>
+</script>
 
   <script type="text/javascript">
-	//data: RDMT_Collection_v2b_cleaned
+
+// filter
+
+var minMaxFilterEditor = function(cell, onRendered, success, cancel, editorParams){
+
+    var end;
+
+    var container = document.createElement("span");
+
+    //create and style inputs
+    var start = document.createElement("input");
+    start.setAttribute("type", "number");
+    start.setAttribute("placeholder", "Min");
+    start.setAttribute("min", 0);
+    start.setAttribute("max", 100);
+    start.style.padding = "4px";
+    start.style.width = "50%";
+    start.style.boxSizing = "border-box";
+
+    start.value = cell.getValue();
+
+    function buildValues(){
+        success({
+            start:start.value,
+            end:end.value,
+        });
+    }
+
+    function keypress(e){
+        if(e.keyCode == 13){
+            buildValues();
+        }
+
+        if(e.keyCode == 27){
+            cancel();
+        }
+    }
+
+    end = start.cloneNode();
+    end.setAttribute("placeholder", "Max");
+
+    start.addEventListener("change", buildValues);
+    start.addEventListener("blur", buildValues);
+    start.addEventListener("keydown", keypress);
+
+    end.addEventListener("change", buildValues);
+    end.addEventListener("blur", buildValues);
+    end.addEventListener("keydown", keypress);
+
+
+    container.appendChild(start);
+    container.appendChild(end);
+
+    return container;
+ }
+	
+//data: RDMT_Collection_v2b_cleaned
 	var tabledata = [
 	{id:1, "LZM_Index":"Data analysis","Title_Unit":"Forschungsdaten analysieren","Course_Formats":"Online, self-paced","Language":"de","Date":"2024","Version":"1","License":"CC BY 4.0 NC","RDMT_Proficiency_Level":"NN","Target_group_as_stated":"NN","LZM_Learning_Objective":"NN","Learning_Objective_as_stated":"NN","Learning_Ressource":"NN","PID_URL":"https://zenodo.org/records/11197797","Consortia":"BERD@NFDI","Learning_Methods":"NN","Acessibility":"NN","FAIR":"NN","Duration":"90min","P_Libraries":"NN","P_Language":"NN","Datatypes":"NN","Tool_Software":"NN","Dataformat_Course":"PDF","Plattform_Implementation":"NN"},
 {id:1, "LZM_Index":"Data formats","Title_Unit":"Turning PDFs into Research Data","Course_Formats":"Online course with weekly meetings","Language":"en","Date":"2025","Version":"NN","License":"CC BY 4.0 NC","RDMT_Proficiency_Level":"NN","Target_group_as_stated":"NN","LZM_Learning_Objective":"NN","Learning_Objective_as_stated":"NN","Learning_Ressource":"Videos, links to extern ressources (text)","PID_URL":"https://berd-nfdi.github.io/turning-pdfs-into-research-data.io/","Consortia":"BERD@NFDI","Learning_Methods":"NN","Acessibility":"NN","FAIR":"NN","Duration":"5 hours 15 min","P_Libraries":"NN","P_Language":"Python","Datatypes":"NN","Tool_Software":"R, Python","Dataformat_Course":" Youtube Videos","Plattform_Implementation":"NN"},
@@ -165,7 +217,7 @@ type: page
 	];
 
 	var table = new Tabulator("#example-table", {
-	    //height:205, // set height of table (optional)
+	    height:400, // set height of table (optional)
 	    data:tabledata,
 	    layout:"fitColumns",
         resizableColumnFit:true,
@@ -174,21 +226,21 @@ type: page
         rowHeader:{formatter:"rownum", headerSort:false, hozAlign:"center", resizable:true, frozen:true},
         //frozenRows:0,
 	    columns:[ //Define Table Columns
-	    {title:"LZM_Index", field:"LZM_Index", sorter:"string", width:100, frozen:true},
+	    {title:"LZM_Index", field:"LZM_Index", sorter:"string", width:100, frozen:true, editor:"input", headerFilter:"list", headerFilterParams:{valuesLookup:true, clearable:true}},
         {title:"Title_Unit", field:"Title_Unit", sorter:"string", width:100, frozen:true},
         {title:"Course_Formats", field:"Course_Formats", sorter:"string", width:100},
         {title:"Language", field:"Language", sorter:"string", width:20},
-        {title:"Date", field:"Date", sorter:"string", width:50},
+        {title:"Date", field:"Date", sorter:"string", width:50, editor:"input", headerFilter:"list", headerFilterParams:{valuesLookup:true, clearable:true}},
         {title:"Version", field:"Version", sorter:"string"},
         {title:"License", field:"License", width:100, sorter:"string"},
-        {title:"RDMT_Proficiency_Level", field:"RDMT_Proficiency_Level", width:100, sorter:"string"},
+        {title:"RDMT_Proficiency_Level", field:"RDMT_Proficiency_Level", width:100, sorter:"string", editor:"input", headerFilter:"list", headerFilterParams:{valuesLookup:true, clearable:true}},
         {title:"Target_group_as_stated", field:"Target_group_as_stated", sorter:"string"},
-        {title:"LZM_Learning_Objective", field:"LZM_Learning_Objective", width:100, sorter:"string"},
+        {title:"LZM_Learning_Objective", field:"LZM_Learning_Objective", width:100, sorter:"string", },
         {title:"Learning_Ressource", field:"Learning_Ressource", sorter:"string", width:10},
         {title:"PID_URL", field:"PID_URL", sorter:"string", width:10},
-        {title:"Consortia", field:"Consortia", width:100, sorter:"string"},
+        {title:"Consortia", field:"Consortia", width:100, sorter:"string", editor:"input", headerFilter:"list", headerFilterParams:{valuesLookup:true, clearable:true}},
         {title:"Learning_Methods", field:"Learning_Methods", sorter:"string"},
-        {title:"Acessibility", field:"Acessibility", sorter:"number", hozAlign:"left", formatter:"tickCross"},
+        {title:"Acessibility", field:"Acessibility", sorter:"tick", hozAlign:"left", formatter:"tickCross"},
         {title:"FAIR", field:"FAIR", sorter:"number", hozAlign:"left", formatter:"star"},
         {title:"Duration", field:"Duration", sorter:"string", width:50},
         {title:"P_Libraries", field:"P_Libraries", sorter:"string", width:100},
