@@ -2,7 +2,7 @@
 title: RDMT Collection Demonstrator
 summary: to be continued ... 
 date: 2026-02-16
-type: book
+type: page
 ---
 <link href="https://unpkg.com/tabulator-tables@6.3.1/dist/css/tabulator.min.css" rel="stylesheet">
  <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.3.1/dist/js/tabulator.min.js"></script>
@@ -167,10 +167,13 @@ type: book
 	var table = new Tabulator("#example-table", {
 	    //height:205, // set height of table (optional)
 	    data:tabledata,
-	    layout:"fitColumns", //fit columns to width of table (optional)
+	    layout:"fitColumns",
+        resizableColumnFit:true,
+        rowHeader:{formatter:"rownum", headerSort:false, hozAlign:"center", resizable:true, frozen:true},
+        //frozenRows:0,
 	    columns:[ //Define Table Columns
-	    {title:"LZM_Index", field:"LZM_Index", sorter:"string"},
-        {title:"Title_Unit", field:"Title_Unit", sorter:"string"},
+	    {title:"LZM_Index", field:"LZM_Index", sorter:"string", frozen:true},
+        {title:"Title_Unit", field:"Title_Unit", sorter:"string", frozen:true},
         {title:"Course_Formats", field:"Course_Formats", sorter:"string", width:50},
         {title:"Language", field:"Language", sorter:"string", width:50},
         {title:"Date", field:"Date", sorter:"string"},
