@@ -4,6 +4,29 @@ summary: to be continued ...
 date: 2026-02-16
 type: page
 ---
+
+<style>
+/* Wowchemy: widen the page container on this page */
+.article-container,
+.universal-wrapper,
+.container{
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Ensure the tabulator host element uses the full width */
+#example-table{
+  width: 100% !important;
+}
+
+/* Optional: reduce side padding so it really reaches the edges */
+.article-container,
+.universal-wrapper,
+.container{
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+</style>
 <link href="https://unpkg.com/tabulator-tables@6.3.1/dist/css/tabulator.min.css" rel="stylesheet">
 <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.3.1/dist/js/tabulator.min.js"></script>
 <script type="text/javascript" src="https://oss.sheetjs.com/sheetjs/xlsx.full.min.js"></script>
