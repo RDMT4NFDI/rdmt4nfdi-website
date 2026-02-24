@@ -13,7 +13,18 @@ type: page
     <p>current state: work in progress <br> version: 0.2.b; data cleaned, whitespace removed <br> date: 2026-02-16</p>
   </div>
   <br/>
+<style>
+/* Make page content full width */
+.td-content > .container{
+  max-width: none !important;
+  width: 100% !important;
+}
 
+/* Make tabulator fill full width */
+#example-table{
+  width: 100% !important;
+}
+</style>
 <div id="example-table"></div>
 <link href="/css/tabulator/6.3/tabulator_site.css" rel="stylesheet">
 <script type="text/javascript"> 
