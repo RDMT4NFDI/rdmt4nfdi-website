@@ -4,18 +4,18 @@ This repository provides a [Hugo](https://gohugo.io/) template for a Base4NFDI b
 By default it includes a blog/newsfeed, publications, people in the project and a wiki, but can be customized in any way to your needs.
 In this template, 'TODO' is used as a placeholder in every place you need to fill in your own service information, so you can just search for it, change/fill out every instance and the site should be ready to use.
 
-TODO: insert your service logo
-
-![todo](https://github.com/user-attachments/assets/f308fd01-e74c-45ef-a41d-19704095b7fe)
+<img src="assets/media/_RDMTraining4NFDI.png" alt="RDMTraining4NFDI logo" width="300">
 
 # RDMT4NFDI
 
-TODO: short intro text about project
+RDMT4NFDI (Research Data Management Training for NFDI) develops and coordinates training activities to strengthen research data management skills across the German National Research Data Infrastructure (NFDI). The project supports trainers, researchers, and infrastructure staff with reusable training materials, community exchange formats, and structured qualification offers. 
+
+RDMT4NFDI contributes to harmonising RDM training efforts across consortia and promotes sustainable, high quality capacity building in research data management.
 
 # Website
-Check out our website (TODO: ADD LINK AFTER PUBLISHING). (_The website is hosted in this repository._)
+Check out our website http://rdmt.services.base4nfdi.de/. (_The website is hosted in this repository._)
 
-You can also find us [on the Base4NFDI website](https://base4nfdi.de/projects/). (TODO: specify) 
+You can also find us [on the Base4NFDI website](https://base4nfdi.de/projects/rdmtraining4nfdi). 
 
 # License
 This repository and the website content (TODO: ADD LINK AFTER PUBLISHING) are licensed under Creative Commons [CC-BY-SA-4.0 licence](https://creativecommons.org/licenses/by-sa/4.0/).
