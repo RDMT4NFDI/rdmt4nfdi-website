@@ -38,8 +38,9 @@ type: page
     </p>
     <p>current state: 
     </br> data reviewed, whitespace removed
-    <br> version: 1; 
-    <br>date: 2026-03-23</p>
+    </br> Please note, PIDs will be added in version 3
+    </br> version: 2; 
+    </br>date: 2026-03-23</p>
   </div>
   <br/>
 <style>
@@ -2054,7 +2055,8 @@ var minMaxFilterEditor = function(cell, onRendered, success, cancel, editorParam
         {title:"Target_group_as_stated", field:"Target_Group_as_stated", sorter:"string"},
         {title:"Learning_Objective", field:"LOM_Learning_Objective", width:100, sorter:"string", },
         {title:"Learning_Resource", field:"Learning_Resource", sorter:"string", width:10},
-        {title:"PID", field:"PID", sorter:"string", sorter:"tick", hozAlign:"left", formatter:"tickCross"},
+        {title:"PID", field:"PID", sorter:"string", sorter:"string", width:10},
+        //{title:"PID", field:"PID", sorter:"string", sorter:"tick", hozAlign:"left", formatter:"tickCross"},
         {title:"Consortia", field:"Consortia", width:100, sorter:"string", editor:"input", headerFilter:"list", headerFilterParams:{valuesLookup:true, clearable:true}},
         {title:"Learning_Methods", field:"Learning_Methods", sorter:"string"},
         {title:"Acessibility", field:"Acessibility", sorter:"tick", hozAlign:"left", formatter:"tickCross"},
@@ -2065,7 +2067,7 @@ var minMaxFilterEditor = function(cell, onRendered, success, cancel, editorParam
         {title:"Data_Types", field:"Data_Types", sorter:"string", width:100},
         {title:"Tool_Software", field:"Tool_Software", sorter:"string", width:100},
         {title:"TC_File_Format", field:"TC_File_Format", sorter:"string", width:100},
-        {title:"Platform_Implementation", field:"Plattform_Implementation", sorter:"string", width:100},
+        {title:"Platform_Implementation", field:"Platform_Implementation", sorter:"string", width:100},
 	    ],
 	});
 
