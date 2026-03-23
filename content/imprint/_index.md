@@ -1,6 +1,6 @@
 ---
 title: Imprint
-date: 2024-12-16
+date: 2026-03-23
 type: landing
 
 # TODO change content
@@ -12,57 +12,32 @@ sections:
       title: Imprint
       subtitle: Background information
       text: |
-        _Caution: As Base4NFDI does not give any binding legal advice, it is recommended to let the privacy policy be checked by the Institution’s responsible legal department._
 
-        It is mandatory to include an imprint on each web presence. This
-        section gives guidance on imprint content and how to structure it. Some terms remain in German due to German law.
 
         **Imprint**
 
-        The institution responsible for the content of the web pages and
-        subpages is also responsible for the imprint. Usually this is the lead
-        institution of the basic service proposal that has a dedicated imprint.\
-        *(Hier steht das Impressum der Institution, die für den Inhalt der Seite
-        verantwortlich ist. Das ist i.d.R. die Lead Institution. Mehr
-        Informationen [hier](https://www.gesetze-im-internet.de/ddg/__5.html).)*
+        **Content Representative**
 
-        **Content Representative (verantwortlich für den Inhalt)**
+        RDMTraining4NFDI </br>
+        [Contact the team](mailto:rdmtraining4nfdi-orga@lists.nfdi.de)
 
-        Name, contact info (email, phone)\
-        *(Kontaktinformationen - E-mail, Telefonnummer)*\
-        Institution name\
-        Institution address\
-        *(Name und Adresse der Institution)*
+        **Name and address of the institution**
 
-        **Regulating authority (zuständige Aufsichtsbehörde) and Umsatz-ID**
-        **Regulating authority:** *Name of the responsible regulating
-        authority*\
-        *(Details zur zuständigen Aufsichtsbehörde)*\
-        **VAT ID**: VAT identification number, if applicable \
-        *(Umsatzsteuer - ID, falls zutreffend)*
+        Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften </br>
+        Gleueler Straße 60 </br>
+        50931 Köln </br>
+        Tel.: +49 (0)221 999 892 240 (Infocenter)
 
-        **Privacy policy**
+        **Legal notice**
         
-        Link to the Privacy Policy page\
-        *(Link zur Datenschutzerklärung)*
+        [Legal Notice](https://www.zbmed.de/en/legal-notice) </br>
 
-        **Your rights**
-
-        Include a concise statement on user rights regarding data protection,
-        copyright, and access, e.g., \"Users have the right to access, correct,
-        and request the deletion of their personal data in accordance with
-        applicable data protection laws.\" \
-        *(Ein kurzer Hinweis zu den Rechten der Nutzerinnen, z. B.: „Nutzerinnen
-        haben das Recht auf Zugang, Berichtigung und Löschung ihrer
-        personenbezogenen Daten gemäß den geltenden Datenschutzgesetzen.")*
-
-        **The imprint is also valid for the following social media accounts**
-        -   Social Media Link 1
-        -   Social Media Link 2
+        The imprint is also valid for the following social media accounts </br>
+        [Mastodon](https://nfdi.social/@RDMT4NFDI)
 
         **Copyright notice (Urheberrechtshinweis)**
 
-        Our website features a variety of materials, including images, designs, recordings, and sounds. The materials we create are shared under the Creative Commons Attribution-ShareAlike 4.0           International (CC BY-SA 4.0) license, making them freely available for use, distribution, and modification under the terms of this license.
+        Our website features a variety of materials, including images, designs, recordings, and sounds. The materials we create are shared under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license, making them freely available for use, distribution, and modification under the terms of this license.
         However, some content on our website comes from third parties or is otherwise restricted, which means it can’t be openly licensed. We’re committed to respecting the intellectual property rights of others, only using content we own, that’s publicly available, or that we’ve properly licensed. When using third-party content, we ensure it is appropriately credited.
         Please note that the names of the Company, product, and other external names might be mentioned on our website, which are trademarks of their respective owners, and we reference them for informational purposes only. If you notice any potential copyright issues, please contact us, and we will address them promptly.
         
@@ -87,7 +62,8 @@ sections:
         public under the Creative Commons License \"Attribution - ShareAlike 4.0
         International\" (CC BY-SA 4.0) or another applicable license, such as a
         recognized Open Source License or CC Public Patent License. Funding may
-        only be used for this purpose.\
+        only be used for this purpose.\ </br>
+
         *(Die Vertragsparteien vereinbaren, dass die Arbeitsergebnisse,
         insbesondere die zu entwickelnden (Software-)Dienste, Leitlinien und
         Handlungsempfehlungen sowie mögliche Infrastrukturkomponenten, der
@@ -98,7 +74,7 @@ sections:
         Licence, zur Verfügung gestellt werden. Fördermittel dürfen nur zu
         diesem Zweck vergeben werden.)*
 
-        **Base4NFDI (mandatory)**
+        **Base4NFDI**
 
         \[Base4NFDI service name\] is a basic service within Base4NFDI. For
         more information see the project page:
