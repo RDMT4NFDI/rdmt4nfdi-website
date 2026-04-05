@@ -16,4 +16,4 @@ print("You entered: {}".format(input_string_var))
 
 ## And this config example is directly included from a GitHub gist:
 
-{{< gist bradtraversy faa8de544c62eef3f31de406982f1d42 >}}
+<script src="https://gist.github.com/bradtraversy/faa8de544c62eef3f31de406982f1d42.js"></script>

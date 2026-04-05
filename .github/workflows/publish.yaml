@@ -16,11 +16,11 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Install Hugo
         run: |
-          HUGO_VERSION=0.149.0  # Update if needed
+          HUGO_VERSION=0.160.0  # Update if needed
           wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
           tar -xvzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
           sudo mv hugo /usr/local/bin/hugo
