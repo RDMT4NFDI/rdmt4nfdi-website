@@ -5,7 +5,7 @@ draft: false
 
 authors:
 - Bock, Sina
-- ZB MED - Information Centre for Life Sciences
+- Petra Kneib
 
 author_notes:
 - ""
@@ -13,7 +13,7 @@ author_notes:
 date: "2025-11-11"
 doi: "10.5281/zenodo.17581243"
 
-publishDate: "2025-12-22T08:39:06Z"
+publishDate: "2026-04-28T09:16:02Z"
 
 publication_types: ["report"]
 
