@@ -73,15 +73,15 @@ sections:
       # TODO: don't forget to change the dates of the phases. Leave the 'date_end' of your current phase empty, so it is marked active
       items:
         - title: Initialisation Phase
-          company: Current phase
-          location: current
+          company: Past phase
+          location: closed
           date_start: '2025-02-01'
-          date_end: ''
+          date_end: '2026-04-30'
         - title: Integration Phase
           company: Next phase
           location: planned
-          date_start: '2026-02-01'
-          date_end: '2028-01-31'
+          date_start: '2026-08-15'
+          date_end: '2028-08-31'
         - title: Ramp up Phase
           company: Following phase
           location: planned
