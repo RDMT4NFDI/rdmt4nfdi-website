@@ -32,6 +32,9 @@ type: page
 <script type="text/javascript" src="https://oss.sheetjs.com/sheetjs/xlsx.full.min.js"></script>
 
   <div>
+    <p>
+    In cooperation with three NFDI consortia, we analysed RDM training materials. The snapshot is the result of a requirements analysis of the knowledge bases from our use cases and from DALIA. It is meant for demonstration purposes, only. For more information on our requirement analysis, please see:
+    <p>
     <p> Bock, S., Uebachs, M., Wohltmann, M., Vandendorpe, J., Blümm, M., Müller, R., Lindstaedt, B., Förstner, K. U., Zollitsch, L., & Piotrowski, S. (2026).
     </br> Documentation of the RDMTraining4NFDI Template – Collection for Training Materials (Version 1).
     </br> Zenodo. <a href="https://doi.org/10.5281/zenodo.19132287">https://doi.org/10.5281/zenodo.19132287</a>
