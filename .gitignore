@@ -10,3 +10,4 @@ go.sum
 
 # Ignore .DS_Store files of macOS
 .DS_Store
+.claude
