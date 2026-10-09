@@ -3,14 +3,25 @@
 <script>
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.rdmt.services.base4nfdi.de"]);
+  _paq.push(["setDomains", [".rdmt.services.base4nfdi.de"]]);
+  _paq.push(['setVisitorCookieTimeout', '2592000']);
+  _paq.push(['setSessionCookieTimeout', '0']);
+  _paq.push(['enableHeartBeatTimer', 30]);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="https://piwik.cebitec.uni-bielefeld.de/";
+    let u="https://piwik.cebitec.uni-bielefeld.de/";
     _paq.push(['setTrackerUrl', u+'matomo.php']);
     _paq.push(['setSiteId', '41']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
+    let d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.defer = true;
+            g.async = true;
+            g.src = u + 'matomo.js';
+            s.parentNode.insertBefore(g, s);
+        })();
 </script>
 <!-- End Matomo Code -->
+
