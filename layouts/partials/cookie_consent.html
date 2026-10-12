@@ -1,0 +1,43 @@
+{{/* Overrides Hugo Blox's partial, which renders inside <head>: so the banner is built in JS, not as markup here.
+     Matomo in custom_head.html requires consent; this records the choice under localStorage "cookieConsent". */}}
+{{ if site.Params.features.privacy_pack.enable }}
+  {{ $privacy := "" }}
+  {{ with site.GetPage "/privacy" }}{{ $privacy = .RelPermalink }}{{ end }}
+  <script>
+    (function () {
+      var KEY = 'cookieConsent';
+      var choice = null;
+      try { choice = localStorage.getItem(KEY); } catch (e) {}
+      if (choice === 'accepted' || choice === 'denied') return;
+
+      var privacyUrl = {{ $privacy }};
+      document.addEventListener('DOMContentLoaded', function () {
+        var banner = document.createElement('div');
+        banner.className = 'cookie-banner';
+        banner.setAttribute('role', 'region');
+        banner.setAttribute('aria-label', 'Cookie consent');
+        banner.appendChild(document.createTextNode('We use cookies for anonymous usage statistics. '));
+        if (privacyUrl) {
+          var link = document.createElement('a');
+          link.href = privacyUrl;
+          link.textContent = 'Learn more';
+          banner.appendChild(link);
+          banner.appendChild(document.createTextNode('.'));
+        }
+        [['accepted', 'Accept'], ['denied', 'Deny']].forEach(function (opt) {
+          var btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'btn btn-primary';
+          btn.textContent = opt[1];
+          btn.addEventListener('click', function () {
+            try { localStorage.setItem(KEY, opt[0]); } catch (e) {}
+            if (opt[0] === 'accepted') (window._paq = window._paq || []).push(['setConsentGiven']);
+            banner.remove();
+          });
+          banner.appendChild(btn);
+        });
+        document.body.appendChild(banner);
+      });
+    })();
+  </script>
+{{ end }}
