@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Example Alpha — RDMO Widget Integration"
 date: 2025-06-01
 status: Running
@@ -10,7 +11,7 @@ tags: ["RDMO", "widget", "repository"]
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-Example Alpha is an incubator project within the **Todo4NFDI** basic service.
+Example Alpha is an incubator project within the **RDMT4NFDI** basic service.
 
 ## Current status
 

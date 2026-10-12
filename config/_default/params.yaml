@@ -90,7 +90,7 @@ features:
   math:
     enable: true
   privacy_pack:
-    enable: false
+    enable: true
   repository:
     url: 'https://github.com/RDMT4NFDI/rdmt4nfdi-website'
     content_dir: content

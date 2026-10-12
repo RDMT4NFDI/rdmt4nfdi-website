@@ -4,6 +4,11 @@
 <script>
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  {{- if site.Params.features.privacy_pack.enable }}
+  // Track only after opt-in via the banner in cookie_consent.html (same localStorage key).
+  _paq.push(['requireConsent']);
+  try { if (localStorage.getItem('cookieConsent') === 'accepted') _paq.push(['setConsentGiven']); } catch (e) {}
+  {{- end }}
   _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
   _paq.push(["setCookieDomain", "*.rdmt.services.base4nfdi.de"]);
   _paq.push(["setDomains", [".rdmt.services.base4nfdi.de"]]);

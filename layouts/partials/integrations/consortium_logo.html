@@ -3,7 +3,7 @@
   Pass the integration page as context.
 */}}
 {{ $page := . }}
-{{ $consortiaLogos := site.Data.consortia_logos }}
+{{ $consortiaLogos := hugo.Data.consortia_logos }}
 {{ if $consortiaLogos }}
   {{ $digits := replaceRE "[^0-9]" "" (md5 $page.RelPermalink) }}
   {{ $idx := mod (int (substr $digits 0 6)) (len $consortiaLogos) }}

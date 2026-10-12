@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Example Beta — Terminology Browser Hook"
 date: 2025-11-30
 status: Finished
@@ -10,7 +11,7 @@ tags: ["terminology", "hierarchy", "widget", "graph"]
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Example Beta is an incubator project within the **Todo4NFDI** basic service.
+Example Beta is an incubator project within the **RDMT4NFDI** basic service.
 
 ## Current status
 

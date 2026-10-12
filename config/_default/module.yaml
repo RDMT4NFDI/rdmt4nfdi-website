@@ -5,4 +5,17 @@
 ############################
 
 imports:
+  # blox-seo v0.3.1 ships layouts/_markup/sitemap.xml, which Hugo >= 0.163 rejects
+  # (_markup is render-hooks-only). Mount its layouts explicitly, minus _markup.
+  # Must stay above blox-bootstrap, or its indirect import re-mounts the file. See layouts/PATCHES.md.
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-seo
+    mounts:
+      - source: assets
+        target: assets
+      - source: layouts/_partials
+        target: layouts/_partials
+      - source: layouts/robots.txt
+        target: layouts/robots.txt
+      - source: layouts/index.webmanifest
+        target: layouts/index.webmanifest
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5

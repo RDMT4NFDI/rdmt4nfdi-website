@@ -8,7 +8,7 @@
   {{ end }}
 
   {{ $pages := .Pages.ByTitle }}
-  {{ $consortiaLogos := site.Data.consortia_logos }}
+  {{ $consortiaLogos := hugo.Data.consortia_logos }}
   {{ if $pages }}
   <div class="integrations-panel">
     <ul class="integrations-entries">
