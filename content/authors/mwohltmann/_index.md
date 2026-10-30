@@ -19,7 +19,7 @@ organizations:
     url: 'https://www.zbmed.de/kontakt/mareike-wohltmann'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Mareike Wohltmann manages the project and outreach activities within RDMTraining4NFDI. She leads the evaluation of training formats (Work Package 2) and is responsible for networking activities (Work Packages 4) within the NFDI and the broader RDM community, including international collaboration.
+bio: Mareike Wohltmann manages the project and outreach activities within RDMTraining4NFDI and is main contact person for consultancy on training didactics and motivation.
 
 interests:
   - Community Building
@@ -58,4 +58,4 @@ user_groups:
   - Project Team Members
 ---
 
-Mareike Wohltmann manages the project and outreach activities within RDMTraining4NFDI. She leads the evaluation of training formats (Work Package 2) and is responsible for networking activities (Work Packages 4) within the NFDI and the broader RDM community, including international collaboration.
+Mareike Wohltmann manages the project and outreach activities within RDMTraining4NFDI and is main contact person for consultancy on training didactics and motivation.
