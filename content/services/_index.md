@@ -10,7 +10,7 @@ sections:
     content:
       title:
       text: |
-        <img src="/images/services_overview.png" alt="RDMT4NFDI: Research Data Management Training for the German National Research Data Infrastructure. Overview of the services for RDM multipliers, NFDI consortia and the RDM community: Training Execution, Didactic Consultancy, OER Templates and Credentialing." class="img-fluid">
+        <img src="/images/services_overview.png" alt="RDMT4NFDI: Research Data Management Training for the German National Research Data Infrastructure. Overview of the services for RDM multipliers, NFDI consortia and the RDM community: Training Execution, Didactic Consultancy, OER Templates and Credentialing." class="img-fluid d-block mx-auto" style="max-width: 700px;">
     design:
       columns: '1'
 
