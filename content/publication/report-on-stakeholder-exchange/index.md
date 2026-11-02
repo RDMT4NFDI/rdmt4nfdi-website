@@ -18,7 +18,7 @@ author_notes:
 date: "2026-02-17"
 doi: "10.5281/zenodo.18330267"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:13Z"
 
 publication_types: ["report"]
 
@@ -26,7 +26,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p><span><span>RDMTraining4NFDI aims to develop a service to enhance Research Data Management&nbsp; (RDM) Training quality within and beyond the National Research Data Infrastructure (NFDI) in Germany. </span></span><span>To strengthen the collaboration in the RDM landscape and identify further needs of the consortia, we decided to arrange one-to-one-meetings with consortia, data competence centres and state initiatives in Germany.</span></p>"
-summary: "<p><span><span>RDMTraining4NFDI aims to develop a service to enhance Research Data Management&nbsp; (RDM) Training quality within and beyond the National Research Data Infrastructure (NFDI) in Germany. </span></span><span>To strengthen the collaboration in the RDM landscape and identify further need"
+summary: "RDMTraining4NFDI aims to develop a service to enhance Research Data Management&nbsp; (RDM) Training quality within and beyond the National Research Data Infrastructure (NFDI) in Germany. To strengthen the collaboration in the RDM landscape and identify further needs of the consortia, we decided to a"
 
 tags:
 - Research Data Management

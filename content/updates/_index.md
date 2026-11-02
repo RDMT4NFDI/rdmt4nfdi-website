@@ -1,6 +1,6 @@
 ---
 title: Updates
-date: 2026-08-10
+date: 2026-11-02
 type: landing
 
 # TODO change content
@@ -9,25 +9,35 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: Spring Break and Start of our Next Phase
+      title: RDMT4NFDI Stakeholder Meeting 2026
       text: |
-        Many thanks to the tremendous support of the RDM community. RDMTraining4NFDI has been accepted for funding of the Integration phase. Our Integration phase will start in August 2026. Until then we will not be able to carry out any operational activities, but please do not hestitate to send your request via our [mailing lists](https://rdmt.services.base4nfdi.de/contact/). It will be addressed as soon as possible once the basic services resumes. Thank you for your understanding.
+        The RDMTraining4NFDI stakeholder meeting on 20 November marks the start of our pilot credentialing phase.
+
+        During this meeting we have two objectives:
+
+        First, we'd like to agree on a prototype for harmonizing RDM training across the NFDI. Based on the agreement, our use cases will refine their training.
+
+        Second, for our future credentialing process we want to discuss good practices and challenges of integrating RDM training in a higher education curriculum.
+
+        Registration for the meeting is closed.
 
     design:
       columns: '1'
-    
+
   - block: markdown
     content:
-      title: FAIR warning – We'll be back soon!
+      title: Training Execution for 2027
       text: |
-        Please save the Date! RDMTrainging4NFDI – Stakeholder Meeting Certification (1. Pilot-Phase & Experts). 
-       
-        We're excited to remind you of the date for our Stakeholder Meeting – Certification.
-        Who: UseCases, Experts & interested Stakeholders.
-        When: November 6, 2026 (alternative slot: November 20, 2026); 10-13.
-        Where: Zoom. Key topics, poll, link and details will be announced soon.
-        
-        Looking forward to seeing you.
+        We conducted a needs analysis to identify which topics our target group requires training on. We are currently developing the training plan for 2027.
+
+    design:
+      columns: '1'
+
+  - block: markdown
+    content:
+      title: Meet us at the remaining conferences in 2026
+      text: |
+        We will take part in the [Base4NFDI User Conference](https://base4nfdi.de/news-events/events/user-conference-2026), [TEACH](https://helmholtz-metadaten.de/de/veranstaltungen/teach-6) and the [Cutting Edge Conference](https://nfdi4ing.de/4ing4cat-conf/). We look forward to meeting you there!
 
     design:
       columns: '1'

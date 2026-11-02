@@ -13,7 +13,7 @@ author_notes:
 date: "2025-10-01"
 doi: "10.5281/zenodo.17086009"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:14Z"
 
 publication_types: ["presentation"]
 
@@ -21,7 +21,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p>This presentation introduces the RDMTraining4NFDI project and its current status. It was presented at the 9th NFDI4Cat community event on 29 April 2025:&nbsp;https://repository.nfdi4cat.org/dataset.xhtml?persistentId=hdl:21.11165/4cat/53by-s2ua</p>"
-summary: "<p>This presentation introduces the RDMTraining4NFDI project and its current status. It was presented at the 9th NFDI4Cat community event on 29 April 2025:&nbsp;https://repository.nfdi4cat.org/dataset.xhtml?persistentId=hdl:21.11165/4cat/53by-s2ua</p>"
+summary: "This presentation introduces the RDMTraining4NFDI project and its current status. It was presented at the 9th NFDI4Cat community event on 29 April 2025:&nbsp;https://repository.nfdi4cat.org/dataset.xhtml?persistentId=hdl:21.11165/4cat/53by-s2ua"
 
 tags:
 - Research Data Management

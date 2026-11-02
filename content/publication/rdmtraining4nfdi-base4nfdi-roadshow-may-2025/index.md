@@ -12,7 +12,7 @@ author_notes:
 date: "2025-09-09"
 doi: "10.5281/zenodo.17085714"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:14Z"
 
 publication_types: ["presentation"]
 
@@ -20,7 +20,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p>Basic services under development will pitch themselves, show use cases, update us on their program, present how and who can access the service, and go into technical details and implementations.&nbsp;<br>Further information:<br>https://base4nfdi.de/news-events/events/services-roadshow-by-base4nfdi-05-2025</p>"
-summary: "<p>Basic services under development will pitch themselves, show use cases, update us on their program, present how and who can access the service, and go into technical details and implementations.&nbsp;<br>Further information:<br>https://base4nfdi.de/news-events/events/services-roadshow-by-base4nfd"
+summary: "Basic services under development will pitch themselves, show use cases, update us on their program, present how and who can access the service, and go into technical details and implementations.&nbsp;Further information:https://base4nfdi.de/news-events/events/services-roadshow-by-base4nfdi-05-2025"
 
 tags:
 - Research Data Management

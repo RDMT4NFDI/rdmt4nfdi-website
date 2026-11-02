@@ -17,7 +17,7 @@ main:
   - name: Updates
     url: updates
     weight: 30
-  - name: Collection_Demonstrator
+  - name: Collection Demonstrator
     url: demonstrator
     weight: 40
   - name: People

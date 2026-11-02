@@ -21,7 +21,7 @@ author_notes:
 date: "2026-03-20"
 doi: "10.5281/zenodo.19132287"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:13Z"
 
 publication_types: ["report"]
 
@@ -29,7 +29,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p><strong>Deliverable D1.2:&nbsp;</strong>Collection of training materials and guidelines for training delivery and</p> <p><strong>Deliverable D1.3:&nbsp;</strong>Revised and extended collection of training materials and guidelines for training delivery</p> <p><span><strong>Documentation of the RDMTraining4NFDI Template &ndash; Collection for Training Materials</strong><br>This documentation presents the findings of the base service </span><span>RDMTraining4NFDI</span><span> concerning training materials and guidelines. First, the initial situation at the start of the project is outlined and the original objectives are summarised. Second, the findings of </span><span>RDMTraining4NFDI </span><span>WP1 are presented. Following this, the methodological approach and the design of the collection template are described. Finally, considerations that have been incorporated into the respective categories of the collection template are documented.</span></p>"
-summary: "<p><strong>Deliverable D1.2:&nbsp;</strong>Collection of training materials and guidelines for training delivery and</p> <p><strong>Deliverable D1.3:&nbsp;</strong>Revised and extended collection of training materials and guidelines for training delivery</p> <p><span><strong>Documentation of the RDM"
+summary: "Deliverable D1.2:&nbsp;Collection of training materials and guidelines for training delivery and Deliverable D1.3:&nbsp;Revised and extended collection of training materials and guidelines for training delivery Documentation of the RDMTraining4NFDI Template &ndash; Collection for Training MaterialsT"
 
 tags:
 featured: false

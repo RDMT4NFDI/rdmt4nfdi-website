@@ -14,7 +14,7 @@ author_notes:
 date: "2025-10-01"
 doi: "10.5281/zenodo.17084692"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:13Z"
 
 publication_types: ["presentation"]
 
@@ -22,7 +22,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p>The base service Research Data Management Training for NFDI (RDMTraining4NFDI) offers a modular collection of primarily existing fundamental RDM training materials, featuring documented and tested training formats and methods that take the Learning Objective Matrix into account. Materials created in this project, such as best-practice guides, will be made freely available as Open Educational Resources (OER) under the CC-BY license and registered in DALIA including metadata. By providing access to these materials, consortia can efficiently develop their own community-specific adaptations of the training and build capacity quickly.</p> <p>In this presentation, we will provide insights into the current collection and ongoing work, outline our process for identifying certification options, and offer an outlook on the integration phase.</p>"
-summary: "<p>The base service Research Data Management Training for NFDI (RDMTraining4NFDI) offers a modular collection of primarily existing fundamental RDM training materials, featuring documented and tested training formats and methods that take the Learning Objective Matrix into account. Materials created"
+summary: "The base service Research Data Management Training for NFDI (RDMTraining4NFDI) offers a modular collection of primarily existing fundamental RDM training materials, featuring documented and tested training formats and methods that take the Learning Objective Matrix into account. Materials created in"
 
 tags:
 - Research Data Management

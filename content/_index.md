@@ -7,17 +7,15 @@ type: landing
 sections:
   - block: hero
     content:
-      title: RDMT4NFDI
+      title: RDMTraining4NFDI
       image:
         filename: _RDMTraining4NFDI.png
       text: |
-        RDMTraining4NFDI is a Base4NFDI basic service currently in its initialisation phase, focused on developing training and education in research data management and funded by the German Research Foundation (DFG) via Base4NFDI.
-        
-        RDMTraining4NFDI provides hands on research data management (RDM) training for all NFDI consortia. From the outset, we explore certification options to support standardization within the NFDI.
+        RDMTraining4NFDI is a Base4NFDI basic service currently in its integration phase, focused on developing training and education in research data management and funded by the German Research Foundation (DFG) via Base4NFDI.
 
-        Our RDM training courses cover data, software, and machine learning models and didactics, targeting consortia staff such as data stewards and trainers.
+        During this phase, we will focus on advancing the harmonization of RDM training materials and the certification of RDM training together with the community.
 
-        We make RDM training materials, proven formats, and methods easily findable, reusable, and adaptable across consortia. This enables communities to efficiently tailor courses to their needs and scale their training capacity.
+        We provide RDM trainings targeting consortia staff such as Data Stewards and trainers.
 
         In addition, we offer consultancy on training skills and methodologies, helping consortia enhance the quality and impact of their RDM training.
 
@@ -28,13 +26,13 @@ sections:
         </p>
 
         <div class="collapse" id="moreinfo">
-          <p><strong>Certification Options:</strong> Certification is a key component for the standardization of RDM training within the NFDI and beyond. We are exploring options for how a certification process in the NFDI could be designed and implemented.</p>
+          <p><strong>Harmonization of NFDI RDM materials:</strong> Together with our use cases, credentialing experts, and further initiatives, we will combine community concepts (Train-the-Trainer concept for RDM, the RDM learning objectives matrix, the EduBricks concept), insights and good practices from the community. The goal is to provide templates for a range of training formats, including workshops, courses, and self-learning units. These templates build on ongoing efforts of various initiatives. The templates are intended to support the creation of high-quality, reusable, and FAIR-aligned training materials for RDM education across the NFDI.</p>
 
-          <p><strong>Training Execution:</strong> We offer tailored RDM training courses based on community needs. From October to December 2025, our courses will focus on the most relevant topics, while gathering feedback on content quality, format, and participant satisfaction.</p>
+          <p><strong>Certification Options:</strong> Certification is a key component for the standardization of RDM training within the NFDI and beyond. We are exploring options for how a certification process in the NFDI could be designed and implemented. In this phase, we aim to gain practical experience with micro-credentialing to identify and reduce potential barriers to the acceptance and implementation of a credentialing process.</p>
 
-          <p>In response to high demand, we also provide additional sessions on didactics and motivation. Stay updated by checking our announcements or contacting us to receive the latest information on upcoming trainings.</p>
+          <p><strong>Training Execution:</strong> Data Stewards will have the opportunity to participate in RDM training courses covering a range of topics. Our RDM training courses cover data, software, and machine learning models and didactics. We offer quarterly online RDM training sessions as well as on-site training sessions twice a year. We also offer generic foundational RDM training for researchers within the consortia.</p>
 
-          <p><strong>RDM Training Materials:</strong> Which training materials are suitable for which target groups? Which materials are qualified for reuse? We are exploring solutions to make training materials easier to find and reuse across consortia.</p>
+          <p><strong>Training Consultancy:</strong> We offer training consultancy, either in the form of tailored training sessions or advice on the didactic design and delivery of RDM training.</p>
 
           <p><strong>RDM Network:</strong> We are in contact with several stakeholders within the NFDI, such as RDM trainers, and beyond, including Data Competence Centers (DKZ), regional initiatives, and RDM projects like the UAG Schulungen/Fortbildungen der DINI/nestor-AG Forschungsdaten. This network enables us to connect you with relevant projects and contacts whenever you need a point of reference.</p>
         </div>

@@ -16,7 +16,7 @@ author_notes:
 date: "2026-02-20"
 doi: "10.5281/zenodo.18708031"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:13Z"
 
 publication_types: ["report"]
 
@@ -24,7 +24,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p>On 29 November 2026, the first stakeholder meeting organised by the RDMTraining4NFDI team and its cooperating partners, ZB MED and TH Cologne, took place virtually. Those invited to this meeting included interested individuals from all consortia of the National Research Data Infrastructure (NFDI), the Data Competencies Centre, state initatives and other stakeholders who were interested in informing themselves and discussing with the Research Data Management (RDM) community the needs and requirements for a certification process on RDM competencies from the NFDI.</p>"
-summary: "<p>On 29 November 2026, the first stakeholder meeting organised by the RDMTraining4NFDI team and its cooperating partners, ZB MED and TH Cologne, took place virtually. Those invited to this meeting included interested individuals from all consortia of the National Research Data Infrastructure (NFDI)"
+summary: "On 29 November 2026, the first stakeholder meeting organised by the RDMTraining4NFDI team and its cooperating partners, ZB MED and TH Cologne, took place virtually. Those invited to this meeting included interested individuals from all consortia of the National Research Data Infrastructure (NFDI), t"
 
 tags:
 featured: false

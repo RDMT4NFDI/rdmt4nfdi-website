@@ -19,9 +19,9 @@ author_notes:
 date: "2025-08-04"
 doi: "10.5281/zenodo.16736281"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:14Z"
 
-publication_types: ["conference paper"]
+publication_types: ["paper-conference"]
 
 publication: ""
 publication_short: ""

@@ -7,7 +7,6 @@ authors:
 - Wohltmann, Mareike
 - Bock, Sina
 - Vandendorpe, Justine
-- Uebachs, Marco
 - Müller, Rabea
 - Lindstaedt, Birte
 - Blümm, Mirjam
@@ -16,18 +15,18 @@ authors:
 author_notes:
 - ""
 
-date: "2025-08-22"
-doi: "10.5281/zenodo.16927331"
+date: "2026-02-02"
+doi: "10.5281/zenodo.18428575"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:13Z"
 
 publication_types: ["proposal"]
 
 publication: ""
 publication_short: ""
 
-abstract: "<p>RDMTraining4NFDI aims to provide consortia with support for developing tailored training programmes in the field of RDM. During the Integration Phase, we will provide multipliers from the NFDI with access to the NRW certificate course; pilot tailored training formats; provide consultancy services on training skills and methodologies; provide FAIR-compliant templates for scalable training materials; expand existing RDM terminologies with explanations of terms related to the creation of training materials; establish an RDM credential framework; and build a service for the exchange of trainers between consortia, supported by a technical infrastructure.</p>"
-summary: "<p>RDMTraining4NFDI aims to provide consortia with support for developing tailored training programmes in the field of RDM. During the Integration Phase, we will provide multipliers from the NFDI with access to the NRW certificate course; pilot tailored training formats; provide consultancy services"
+abstract: "<p>RDMTraining4NFDI supports multipliers across NFDI consortia to strengthen their research data management (RDM) competencies and training skills. The service aims to provide training and consultancy on didactic approaches, promote the creation and reuse of FAIR training materials, drive standardisation in training materials, and support the development of an RDM credential framework. This includes developing certification criteria for training materials in a community-driven review process, as well as a practical certification process for training units and courses.</p>"
+summary: "RDMTraining4NFDI supports multipliers across NFDI consortia to strengthen their research data management (RDM) competencies and training skills. The service aims to provide training and consultancy on didactic approaches, promote the creation and reuse of FAIR training materials, drive standardisati"
 
 tags:
 - Research Data Management
@@ -35,7 +34,7 @@ tags:
 - training materials
 featured: false
 
-url_pdf: "https://zenodo.org/api/records/16927331/files/RDMTraining4NFDI_Proposal_INT-phase_submitted_2025-07-30.pdf/content"
+url_pdf: "https://zenodo.org/api/records/18428575/files/RDMTraining4NFDI_Proposal_INT_phase_V2_submitted_2026-01-30.pdf/content"
 url_code: ""
 url_dataset: ""
 url_poster: ''

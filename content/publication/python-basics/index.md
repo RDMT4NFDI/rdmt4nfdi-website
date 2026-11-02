@@ -15,7 +15,7 @@ author_notes:
 date: "2025-10-23"
 doi: "10.5281/zenodo.17422255"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:13Z"
 
 publication_types: ["software"]
 
@@ -23,7 +23,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p>This notebook introduces fundamental Python concepts for learners with little or no prior programming experience.<br>It covers data types, variables, control flow, functions, and basic data structures such as lists, tuples, and dictionaries.<br>All examples are written in pure Python and require no additional packages.</p>"
-summary: "<p>This notebook introduces fundamental Python concepts for learners with little or no prior programming experience.<br>It covers data types, variables, control flow, functions, and basic data structures such as lists, tuples, and dictionaries.<br>All examples are written in pure Python and require "
+summary: "This notebook introduces fundamental Python concepts for learners with little or no prior programming experience.It covers data types, variables, control flow, functions, and basic data structures such as lists, tuples, and dictionaries.All examples are written in pure Python and require no addition"
 
 tags:
 - python

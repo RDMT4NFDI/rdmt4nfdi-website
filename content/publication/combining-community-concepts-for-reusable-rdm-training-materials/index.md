@@ -13,7 +13,7 @@ author_notes:
 date: "2025-11-11"
 doi: "10.5281/zenodo.17581243"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:14Z"
 
 publication_types: ["report"]
 
@@ -21,7 +21,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p>Content blueprint (WP1, M1.2) &ndash; Design document based on RDM training materials supplied by RDMTraining4NFDI's use cases and additional stakeholders as well as identified training objectives as requirement analysis for a scalable teaching and training concept for the NFDI consortia.</p>"
-summary: "<p>Content blueprint (WP1, M1.2) &ndash; Design document based on RDM training materials supplied by RDMTraining4NFDI's use cases and additional stakeholders as well as identified training objectives as requirement analysis for a scalable teaching and training concept for the NFDI consortia.</p>"
+summary: "Content blueprint (WP1, M1.2) &ndash; Design document based on RDM training materials supplied by RDMTraining4NFDI's use cases and additional stakeholders as well as identified training objectives as requirement analysis for a scalable teaching and training concept for the NFDI consortia."
 
 tags:
 - Research Data Management

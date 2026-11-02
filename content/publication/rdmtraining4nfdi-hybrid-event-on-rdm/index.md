@@ -14,7 +14,7 @@ author_notes:
 date: "2025-09-02"
 doi: "10.5281/zenodo.16616839"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:14Z"
 
 publication_types: ["report"]
 
@@ -22,7 +22,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p>This hybrid event on RDM is organized by RDMTraining4NFDI and is designed for both beginners and experienced professionals in Research Data Management (RDM) who currently provide &mdash; or plan to provide &mdash; generic and/or discipline-specific training.</p>"
-summary: "<p>This hybrid event on RDM is organized by RDMTraining4NFDI and is designed for both beginners and experienced professionals in Research Data Management (RDM) who currently provide &mdash; or plan to provide &mdash; generic and/or discipline-specific training.</p>"
+summary: "This hybrid event on RDM is organized by RDMTraining4NFDI and is designed for both beginners and experienced professionals in Research Data Management (RDM) who currently provide &mdash; or plan to provide &mdash; generic and/or discipline-specific training."
 
 tags:
 - Research Data Management

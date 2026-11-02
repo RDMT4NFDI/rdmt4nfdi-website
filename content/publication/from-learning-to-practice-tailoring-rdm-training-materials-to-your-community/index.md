@@ -15,7 +15,7 @@ author_notes:
 date: "2026-03-10"
 doi: "10.5281/zenodo.18935544"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:13Z"
 
 publication_types: ["document"]
 
@@ -23,7 +23,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p dir=\"ltr\">This guide was designed to support participants of the RDMTraining4NFDI Hybrid Event on Research Data Management (RDM) for National Research Data Infrastructure (NFDI) consortia during the asynchronous homework phase, which took place from 24 November to 5 December 2025.</p> <p dir=\"ltr\">The goal was to adapt existing generic RDM training materials to the participants' respective disciplines and prepare a short contribution for the wrap-up event on 11 December 2025.</p> <p>&nbsp;</p>"
-summary: "<p dir=\"ltr\">This guide was designed to support participants of the RDMTraining4NFDI Hybrid Event on Research Data Management (RDM) for National Research Data Infrastructure (NFDI) consortia during the asynchronous homework phase, which took place from 24 November to 5 December 2025.</p> <p dir=\"ltr"
+summary: "This guide was designed to support participants of the RDMTraining4NFDI Hybrid Event on Research Data Management (RDM) for National Research Data Infrastructure (NFDI) consortia during the asynchronous homework phase, which took place from 24 November to 5 December 2025. The goal was to adapt existi"
 
 tags:
 - Research Data Management
