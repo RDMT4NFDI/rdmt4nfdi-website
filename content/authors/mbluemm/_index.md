@@ -32,6 +32,9 @@ bio: Mirjam Blümm is working as professor for eScience and research data manage
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+  - icon: ror
+    icon_pack: ai
+    link: https://ror.org/014nnvj65
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0003-3665-7031
