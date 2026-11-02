@@ -60,6 +60,10 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/konrad
+
+  - icon: codeberg
+    icon_pack: cb
+    link: https://codeberg.org/konradfoerstner
     
   - icon: linkedin
     icon_pack: fab

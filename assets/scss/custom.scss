@@ -359,3 +359,13 @@
     color: #3d1600;
     background: #fed7aa;
   }
+
+  .cb-codeberg {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    background-color: currentColor;
+    -webkit-mask: url("/images/codeberg.svg") center / contain no-repeat;
+    mask: url("/images/codeberg.svg") center / contain no-repeat;
+  }

@@ -33,15 +33,24 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+  - icon: ror
+    icon_pack: ai
+    link: https://ror.org/0259fwx54
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0002-3096-8237
   - icon: github
     icon_pack: fab
     link: https://github.com/RabeaMue
+  - icon: codeberg
+    icon_pack: cb
+    link: https://codeberg.org/Rabea
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/rabea-m%C3%BCller-60836417b/
+  - icon: mastodon
+    icon_pack: fab
+    link: https://mastodon.social/@RabeaMue
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

@@ -30,6 +30,9 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+  - icon: ror
+    icon_pack: ai
+    link: https://ror.org/0259fwx54
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0009-0003-3493-4530
