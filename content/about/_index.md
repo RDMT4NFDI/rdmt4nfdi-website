@@ -9,7 +9,7 @@ sections:
       title: Mission
       text: |
         <div style="text-align: center;">
-          Our mission is to improve research data management by providing training, and community support.
+          Our mission is to improve research data management by providing trainings and supporting the harmonization of RDM training materials and the certification of RDM training.
         </div>
 
     design:
@@ -37,20 +37,38 @@ sections:
 
   - block: markdown
     content:
-      title: Partners
+      title: Consortia Partners
       text: |
         <div class="row">
           <div class="col-md-3 text-center mb-3">
-            <img src="/images/nfdi4microbiota.png" alt="NFDI4Microbiota" class="img-fluid" style="max-height: 80px;">
+            <img src="/images/partners/nfdi4microbiota.png" alt="NFDI4Microbiota" class="img-fluid" style="max-height: 80px;">
           </div>
           <div class="col-md-3 text-center mb-3">
-            <img src="/images/Logo_NFDI4Memory.svg" alt="NFDI4Memory" class="img-fluid" style="max-height: 80px;">
+            <img src="/images/partners/nfdi4memory.png" alt="NFDI4Memory" class="img-fluid" style="max-height: 80px;">
           </div>
           <div class="col-md-3 text-center mb-3">
-            <img src="/images/LogoBERD.png" alt="BERD" class="img-fluid" style="max-height: 80px;">
+            <img src="/images/partners/berd.png" alt="BERD@NFDI" class="img-fluid" style="max-height: 80px;">
           </div>
           <div class="col-md-3 text-center mb-3">
-            <img src="/images/Logo-KonsortSWD-NFDI4society.svg" alt="NFDI4Society" class="img-fluid" style="max-height: 80px;">
+            <img src="/images/partners/fairagro.png" alt="FAIRagro" class="img-fluid" style="max-height: 80px;">
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/partners/mardi.png" alt="MaRDI" class="img-fluid" style="max-height: 80px;">
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/partners/nfdi4biodiversity.png" alt="NFDI4Biodiversity" class="img-fluid" style="max-height: 80px;">
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/partners/nfdi4cat.png" alt="NFDI4Cat" class="img-fluid" style="max-height: 80px;">
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/partners/nfdi4chem.png" alt="NFDI4Chem" class="img-fluid" style="max-height: 80px;">
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/partners/nfdi4ing.png" alt="NFDI4Ing" class="img-fluid" style="max-height: 80px;">
+          </div>
+          <div class="col-md-3 text-center mb-3">
+            <img src="/images/partners/nfdi4objects.png" alt="NFDI4Objects" class="img-fluid" style="max-height: 80px;">
           </div>
         </div>
     design:
@@ -78,14 +96,14 @@ sections:
           date_start: '2025-02-01'
           date_end: '2026-04-30'
         - title: Integration Phase
-          company: Next phase
-          location: planned
-          date_start: '2026-08-15'
-          date_end: '2028-08-31'
+          company: Current phase
+          location: ongoing
+          date_start: '2026-08-01'
+          date_end: '2028-07-31'
         - title: Ramp up Phase
           company: Following phase
           location: planned
-          date_start: '2028-02-01'
+          date_start: '2028-08-01'
           date_end: '2030-01-31'
     design:
       columns: '1'
