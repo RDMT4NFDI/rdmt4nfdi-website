@@ -19,7 +19,7 @@ author_notes:
 date: "2025-11-27"
 doi: "10.5281/zenodo.17737489"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:13Z"
 
 publication_types: ["report"]
 
@@ -27,7 +27,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p>RDMTraining4NFDI assessed the needs and requirements of the RDM community, particularly the target group of RDM multipliers, from March to June 2025, to support the development of the service. The report presents the results, the questionnaire used for the survey, as well as the data and analysis notebook.</p>"
-summary: "<p>RDMTraining4NFDI assessed the needs and requirements of the RDM community, particularly the target group of RDM multipliers, from March to June 2025, to support the development of the service. The report presents the results, the questionnaire used for the survey, as well as the data and analysis"
+summary: "RDMTraining4NFDI assessed the needs and requirements of the RDM community, particularly the target group of RDM multipliers, from March to June 2025, to support the development of the service. The report presents the results, the questionnaire used for the survey, as well as the data and analysis no"
 
 tags:
 - Research Data Management

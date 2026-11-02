@@ -13,7 +13,7 @@ author_notes:
 date: "2025-11-12"
 doi: "10.5281/zenodo.17588631"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:13Z"
 
 publication_types: ["presentation"]
 
@@ -21,7 +21,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p>This presentation was created for an online workshop on the foundations of Research Data Management (RDM), which took place on 4 November 2025 as part of the <a href=\"https://base4nfdi.de/projects/rdmtraining4nfdi\">RDMTraining4NFDI</a> hybrid event's interactive workshop series. The description provided to participants is given below.</p> <blockquote> <p>This hands-on workshop introduces the fundamentals of RDM for those new to the field. More experienced participants who are curious to see how the basics are taught or who wish to discuss the specificities and challenges of RDM in their own discipline are also welcome to attend. Participants will learn what research data is, why RDM matters, and how to apply good enough practices to make data more reusable and verifiable througout the research data life cycle.&nbsp;</p> <p>Good RDM not only prevents data loss but also saves time, money, and resources. For researchers, it enhances visibility and reputation, safeguards data ownership, supports funding eligibility, and fosters collaboration. It also helps meet formal requirements, while ensuring research integrity and reproducibility.&nbsp;</p> <p>Over the course of three hours, participants will gain a practical understanding of key RDM concepts, tools, and workflows, and leave with actionable strategies to manage data effectively in their professional contexts.&nbsp;</p> </blockquote>"
-summary: "<p>This presentation was created for an online workshop on the foundations of Research Data Management (RDM), which took place on 4 November 2025 as part of the <a href=\"https://base4nfdi.de/projects/rdmtraining4nfdi\">RDMTraining4NFDI</a> hybrid event's interactive workshop series. The description p"
+summary: "This presentation was created for an online workshop on the foundations of Research Data Management (RDM), which took place on 4 November 2025 as part of the RDMTraining4NFDI hybrid event's interactive workshop series. The description provided to participants is given below.  This hands-on workshop "
 
 tags:
 - Research Data

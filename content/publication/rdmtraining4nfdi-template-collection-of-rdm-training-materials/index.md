@@ -16,10 +16,10 @@ authors:
 author_notes:
 - ""
 
-date: "2026-01-26"
-doi: "10.5281/zenodo.18354545"
+date: "2026-03-20"
+doi: "10.5281/zenodo.19133342"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:13Z"
 
 publication_types: ["report"]
 
@@ -27,7 +27,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p><strong>Deliverable D1.2: </strong>Collection of training materials and guidelines for training delivery and</p> <p><strong>Deliverable D1.3:&nbsp;</strong>Revised and extended collection of training materials and guidelines for training delivery</p> <p>In cooperation with four pilot NFDI consortia (D.1.2), we designed a template for collecting existing RDM teaching materials revised, extended and reviewed with the help of the RDM community. Special thanks to Juliane R&ouml;der (NFDI4Biodiversity), Central Research Data Management (CAU Kiel), Petra Steiner (DALIA) and Jonathan Geiger (DALIA, EduTrain WP2), all members of Section EduTrain WP5 and Kerstin Kaiser (BUW, TH K&ouml;ln).</p>"
-summary: "<p><strong>Deliverable D1.2: </strong>Collection of training materials and guidelines for training delivery and</p> <p><strong>Deliverable D1.3:&nbsp;</strong>Revised and extended collection of training materials and guidelines for training delivery</p> <p>In cooperation with four pilot NFDI consort"
+summary: "Deliverable D1.2: Collection of training materials and guidelines for training delivery and Deliverable D1.3:&nbsp;Revised and extended collection of training materials and guidelines for training delivery In cooperation with four pilot NFDI consortia (D.1.2), we designed a template for collecting e"
 
 tags:
 - Research Data Management

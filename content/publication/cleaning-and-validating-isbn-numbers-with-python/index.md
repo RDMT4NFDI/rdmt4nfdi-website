@@ -13,7 +13,7 @@ author_notes:
 date: "2025-10-23"
 doi: "10.5281/zenodo.17422650"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:13Z"
 
 publication_types: ["software"]
 
@@ -21,7 +21,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p>This notebook demonstrates how to clean and validate ISBN numbers using Python.<br>It introduces a simple workflow to identify and correct formatting inconsistencies in ISBN-10 and ISBN-13 numbers.<br>You will learn to use string methods, regular expressions, and conditional logic to ensure that ISBN data is accurate and standardized.</p> <p><strong>Learning goals</strong><br>After completing this notebook, you will be able to:</p> <ul> <li>Identify and handle typical issues in ISBN datasets (missing digits, dashes, inconsistent lengths)</li> <li>Understand the difference between ISBN-10 and ISBN-13 formats</li> <li>Implement Python functions to clean and normalize ISBN strings</li> </ul>"
-summary: "<p>This notebook demonstrates how to clean and validate ISBN numbers using Python.<br>It introduces a simple workflow to identify and correct formatting inconsistencies in ISBN-10 and ISBN-13 numbers.<br>You will learn to use string methods, regular expressions, and conditional logic to ensure that "
+summary: "This notebook demonstrates how to clean and validate ISBN numbers using Python.It introduces a simple workflow to identify and correct formatting inconsistencies in ISBN-10 and ISBN-13 numbers.You will learn to use string methods, regular expressions, and conditional logic to ensure that ISBN data i"
 
 tags:
 - python

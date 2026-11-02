@@ -13,7 +13,7 @@ author_notes:
 date: "2026-03-13"
 doi: "10.5281/zenodo.18330262"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:13Z"
 
 publication_types: ["report"]
 
@@ -21,7 +21,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p dir=\"ltr\"><span>This hybrid event was designed for both beginners and experienced professionals in Research Data Management (RDM) who were already providing, or planning to provide, generic and/or discipline-specific training.</span></p> <p dir=\"ltr\"><span>Organised by RDMTraining4NFDI and enriched with insights from experienced external trainers, the programme tested a dynamic mix of learning formats.</span></p>"
-summary: "<p dir=\"ltr\"><span>This hybrid event was designed for both beginners and experienced professionals in Research Data Management (RDM) who were already providing, or planning to provide, generic and/or discipline-specific training.</span></p> <p dir=\"ltr\"><span>Organised by RDMTraining4NFDI and enrich"
+summary: "This hybrid event was designed for both beginners and experienced professionals in Research Data Management (RDM) who were already providing, or planning to provide, generic and/or discipline-specific training. Organised by RDMTraining4NFDI and enriched with insights from experienced external traine"
 
 tags:
 - Training

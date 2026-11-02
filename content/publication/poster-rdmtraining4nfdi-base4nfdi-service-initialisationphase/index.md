@@ -12,7 +12,7 @@ author_notes:
 date: "2025-10-01"
 doi: "10.5281/zenodo.17084852"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:14Z"
 
 publication_types: ["poster"]
 
@@ -20,7 +20,7 @@ publication: ""
 publication_short: ""
 
 abstract: "<p>Poster was part of the 2nd Base4NFDI User Conference (UC4B2025): https://base4nfdi.de/news-events/events/user-conference-2025</p>"
-summary: "<p>Poster was part of the 2nd Base4NFDI User Conference (UC4B2025): https://base4nfdi.de/news-events/events/user-conference-2025</p>"
+summary: "Poster was part of the 2nd Base4NFDI User Conference (UC4B2025): https://base4nfdi.de/news-events/events/user-conference-2025"
 
 tags:
 - Research Data Management

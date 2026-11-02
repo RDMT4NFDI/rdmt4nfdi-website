@@ -11,18 +11,18 @@ authors:
 author_notes:
 - ""
 
-date: "2025-08-07"
-doi: "10.5281/zenodo.16616812"
+date: "2025-08-14"
+doi: "10.5281/zenodo.16761128"
 
-publishDate: "2026-04-28T09:16:02Z"
+publishDate: "2026-11-02T11:38:14Z"
 
-publication_types: ["document"]
+publication_types: ["report"]
 
 publication: ""
 publication_short: ""
 
 abstract: "<p>Registration form of the initially planned Summer School \"<span>Summer School on Research Data Management for NFDI\" in the project <a href=\"https://base4nfdi.de/projects/rdmtraining4nfdi\">RDMTraining4NFDI</a></span></p>"
-summary: "<p>Registration form of the initially planned Summer School \"<span>Summer School on Research Data Management for NFDI\" in the project <a href=\"https://base4nfdi.de/projects/rdmtraining4nfdi\">RDMTraining4NFDI</a></span></p>"
+summary: "Registration form of the initially planned Summer School \"Summer School on Research Data Management for NFDI\" in the project RDMTraining4NFDI"
 
 tags:
 - Research Data Managment
@@ -30,7 +30,7 @@ tags:
 - Data Steward
 featured: false
 
-url_pdf: ""
+url_pdf: "https://zenodo.org/api/records/16761128/files/Summer-School-on-Research-Data-Management-for-NFDI-Consortia.pdf/content"
 url_code: ""
 url_dataset: ""
 url_poster: ''
