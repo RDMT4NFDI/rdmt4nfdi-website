@@ -1,0 +1,192 @@
+{{- define "main" -}}
+{{/*
+  Training page: upcoming trainings as cards (with Bioschemas Course +
+  CourseInstance JSON-LD for TeSS), past trainings as a compact list grouped by
+  year and series. Data: data/trainings.yaml. Guide: README.md, "Add a training".
+*/}}
+{{ $data := hugo.Data.trainings }}
+{{ $series := $data.series | default dict }}
+{{ $pageUrl := .Permalink }}
+{{ $provider := dict "@type" "Organization" "name" "RDMTraining4NFDI" "url" ("/" | absURL) }}
+{{ $langNames := dict "en" "English" "de" "German" }}
+{{ $modeNames := dict "online" "Online" "onsite" "On site" "blended" "Online and on site" }}
+{{ $statusLabels := dict "upcoming" "Registration opens soon" "closed" "Registration closed" }}
+{{ $now := now }}
+
+{{/* Split into upcoming and past by end of the training */}}
+{{ $upcoming := slice }}
+{{ $past := slice }}
+{{ range sort $data.trainings "start" }}
+  {{ $end := cond (strings.Contains .end "T") .end (printf "%sT23:59:59+01:00" .end) }}
+  {{ $item := merge . (dict "_end" $end) }}
+  {{ if ge (time.AsTime $end).Unix $now.Unix }}
+    {{ $upcoming = $upcoming | append $item }}
+  {{ else }}
+    {{ $past = $past | append $item }}
+  {{ end }}
+{{ end }}
+{{ $past = sort $past "start" "desc" }}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper training-page">
+  {{ with .Content }}
+    <div class="article-style training-intro">{{ . }}</div>
+  {{ end }}
+
+  <h2 class="training-heading">Upcoming trainings</h2>
+  <div class="training-list">
+  {{ range $upcoming }}
+    {{ $status := .status | default "open" }}
+    {{ $start := time.AsTime .start }}
+    {{ $endT := time.AsTime .end }}
+    {{ $hasTime := strings.Contains .start "T" }}
+    {{ $anchor := printf "%s#%s" $pageUrl .id }}
+    {{ $regUrl := cond (and .registration (strings.HasPrefix (.registration | default "") "http")) .registration $anchor }}
+
+    {{/* ---- Bioschemas (TeSS) ---- */}}
+    {{ $modes := cond (eq .mode "blended") (slice "online" "onsite") (slice .mode) }}
+    {{ $location := dict }}
+    {{ if eq .mode "online" }}
+      {{ $location = dict "@type" "VirtualLocation" "name" (.location | default "Online") "url" $regUrl }}
+    {{ else }}
+      {{ $location = dict "@type" "Place" "name" (.location | default "On site") }}
+      {{ with .address }}
+        {{ $location = merge $location (dict "address" (dict "@type" "PostalAddress" "streetAddress" .street "postalCode" .postcode "addressLocality" .city "addressCountry" .country)) }}
+      {{ end }}
+    {{ end }}
+    {{ $instance := dict
+        "@type" "CourseInstance"
+        "@id" $anchor
+        "http://purl.org/dc/terms/conformsTo" (dict "@id" "https://bioschemas.org/profiles/CourseInstance/1.0-RELEASE" "@type" "CreativeWork")
+        "name" .title
+        "courseMode" $modes
+        "location" $location
+        "startDate" .start
+        "endDate" .end
+        "inLanguage" .language
+        "url" $regUrl
+        "organizer" $provider
+    }}
+    {{ with .instructors }}
+      {{ $people := slice }}{{ range . }}{{ $people = $people | append (dict "@type" "Person" "name" .) }}{{ end }}
+      {{ $instance = merge $instance (dict "instructor" $people) }}
+    {{ end }}
+    {{ with .capacity }}{{ $instance = merge $instance (dict "maximumAttendeeCapacity" .) }}{{ end }}
+    {{ $course := dict
+        "@context" "https://schema.org/"
+        "@type" "Course"
+        "@id" (printf "%s-course" $anchor)
+        "http://purl.org/dc/terms/conformsTo" (dict "@id" "https://bioschemas.org/profiles/Course/1.0-RELEASE" "@type" "CreativeWork")
+        "name" .title
+        "description" (strings.TrimSpace .description)
+        "url" $anchor
+        "inLanguage" .language
+        "provider" $provider
+        "hasCourseInstance" (slice $instance)
+    }}
+    {{ with .level }}{{ $course = merge $course (dict "educationalLevel" .) }}{{ end }}
+    {{ with .keywords }}{{ $course = merge $course (dict "keywords" (delimit . ", ")) }}{{ end }}
+    {{ with .audience }}{{ $course = merge $course (dict "audience" (slice (dict "@type" "Audience" "audienceType" .))) }}{{ end }}
+    {{ with .prerequisites }}{{ $course = merge $course (dict "coursePrerequisites" .) }}{{ end }}
+    {{ with .teaches }}{{ $course = merge $course (dict "teaches" .) }}{{ end }}
+    {{/* EDAM topics: TeSS reads them from "about" as DefinedTerm with the http:// URI */}}
+    {{ with .topics }}
+      {{ $terms := slice }}{{ range . }}{{ $terms = $terms | append (dict "@type" "DefinedTerm" "@id" (printf "http://edamontology.org/%s" .id) "name" .name) }}{{ end }}
+      {{ $course = merge $course (dict "about" $terms) }}
+    {{ end }}
+    {{/* CreativeWork, not LearningResource: TeSS would harvest every
+         LearningResource on the page as a training material of its own */}}
+    {{ with .lessons }}
+      {{ $works := slice }}{{ range . }}{{ $works = $works | append (dict "@type" "CreativeWork" "name" .name "url" .url) }}{{ end }}
+      {{ $course = merge $course (dict "mentions" $works) }}
+    {{ end }}
+    <script type="application/ld+json">{{ $course | jsonify | safeJS }}</script>
+
+    {{/* ---- Card ---- */}}
+    <article class="training-card training-{{ $status }}" id="{{ .id }}" data-end="{{ ._end }}">
+      <div class="training-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        {{- $sd := $start.Format "2 January 2006" -}}
+        {{- $ed := $endT.Format "2 January 2006" -}}
+        {{ if and (ne $sd $ed) (eq ($start.Format "January 2006") ($endT.Format "January 2006")) }} {{ $start.Format "2" }}–{{ $ed }}{{ else if ne $sd $ed }} {{ $sd }} – {{ $ed }}{{ else if $hasTime }} {{ $sd }}, {{ $start.Format "15:04" }}–{{ $endT.Format "15:04" }}{{ else }} {{ $sd }}{{ end }}
+        {{ with index $statusLabels $status }}<span class="training-status">{{ . }}</span>{{ end }}
+      </div>
+      <h3 class="training-title">{{ .title }}</h3>
+      <p class="training-meta">
+        <span><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ index $modeNames .mode | default .mode }}{{ with .location }} · {{ . }}{{ end }}{{ with .address }}, {{ .city }}{{ end }}</span>
+        <span><i class="fas fa-language" aria-hidden="true"></i> {{ index $langNames .language | default .language }}</span>
+        {{ with .level }}<span><i class="fas fa-signal" aria-hidden="true"></i> {{ . }}</span>{{ end }}
+        {{ with .audience }}<span><i class="fas fa-users" aria-hidden="true"></i> {{ . }}</span>{{ end }}
+      </p>
+      <p class="training-description">{{ .description }}</p>
+      {{ with .prerequisites }}<p class="training-detail"><strong>Prerequisites:</strong> {{ . }}</p>{{ end }}
+      {{ with .instructors }}<p class="training-detail"><strong>{{ cond (gt (len .) 1) "Trainers" "Trainer" }}:</strong> {{ delimit . ", " }}</p>{{ end }}
+      {{ with .lessons }}<p class="training-detail"><strong>{{ cond (gt (len .) 1) "Training materials" "Training material" }}:</strong> {{ range $i, $l := . }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.name }}</a>{{ end }}</p>{{ end }}
+      {{ with .teaches }}
+      <details class="training-objectives">
+        <summary>Learning objectives</summary>
+        <ul>{{ range . }}<li>{{ strings.TrimPrefix "Learners are able to " . | strings.FirstUpper }}</li>{{ end }}</ul>
+      </details>
+      {{ end }}
+      {{ if and (eq $status "open") .registration }}
+      <a class="btn btn-primary training-register" href="{{ .registration }}">Register <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      {{ end }}
+    </article>
+  {{ end }}
+    <p class="training-empty">There are no upcoming trainings at the moment. Please check again later or <a href="/contact/">contact us</a>.</p>
+  </div>
+
+  {{ with $past }}
+  <h2 class="training-heading">Past trainings</h2>
+  {{ $years := slice }}
+  {{ range . }}{{ $years = $years | append (substr .start 0 4) }}{{ end }}
+  {{ range ($years | uniq) }}
+    {{ $year := . }}
+    {{ $inYear := where (where $past "start" "ge" $year) "start" "lt" (printf "%d" (add (int $year) 1)) }}
+    <section class="training-year">
+      <h3 class="training-year-heading">{{ $year }}</h3>
+      {{ $shown := slice }}
+      {{ range $inYear }}
+        {{ if not .series }}
+          <ul class="training-past-list">{{ partial "training/past_row.html" (dict "item" . "modeNames" $modeNames "langNames" $langNames) }}</ul>
+        {{ else if not (in $shown .series) }}
+          {{ $key := .series }}
+          {{ $shown = $shown | append $key }}
+          {{ $s := index $series $key }}
+          <div class="training-series">
+            <div class="training-series-head">
+              <h4 class="training-series-title">{{ with $s }}{{ .title }}{{ else }}{{ $key }}{{ end }}</h4>
+              {{ with $s.description }}<p class="training-series-description">{{ . }}</p>{{ end }}
+              {{ with $s.link }}<p class="training-series-link"><a href="{{ .url }}">{{ .name }} <i class="fas fa-arrow-right" aria-hidden="true"></i></a></p>{{ end }}
+            </div>
+            <ul class="training-past-list">
+            {{ range sort (where $inYear "series" $key) "start" "asc" }}
+              {{ partial "training/past_row.html" (dict "item" . "modeNames" $modeNames "langNames" $langNames) }}
+            {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+      {{ end }}
+    </section>
+  {{ end }}
+  {{ end }}
+</div>
+
+<script>
+/* Trainings that end between two builds are hidden in the browser. */
+document.addEventListener("DOMContentLoaded", () => {
+  const now = new Date();
+  let upcoming = 0;
+  document.querySelectorAll(".training-card").forEach((card) => {
+    if (new Date(card.dataset.end) < now) {
+      card.hidden = true;
+    } else {
+      upcoming += 1;
+    }
+  });
+  const empty = document.querySelector(".training-empty");
+  if (empty) empty.hidden = upcoming > 0;
+});
+</script>
+{{- end -}}

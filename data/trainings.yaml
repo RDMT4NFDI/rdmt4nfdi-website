@@ -1,0 +1,233 @@
+# One entry per training date. The "Training" page (content/training/) is
+# generated from this file, including Bioschemas Course + CourseInstance
+# metadata (JSON-LD) that TeSS (https://tess.elixir-europe.org) can harvest.
+#
+# Upcoming trainings are shown as cards with full details. Past trainings
+# move to the "Past trainings" list automatically (at build time and in the
+# browser) and are no longer sent to TeSS. Please do not delete them: after
+# the training, add the number of participants (field "participants").
+#
+# id            unique short id, used as anchor: YYYY-MM-DD-short-name
+# title         course title
+# description   two or three sentences on content and target group
+# status        upcoming | open (default) | closed
+#               upcoming: registration not open yet
+#               open: registration open (shows Register button)
+#               closed: registration closed or fully booked
+# series        optional: key of an entry in "series" at the end of this file;
+#               past trainings of one series are grouped together
+# start         start, ISO 8601 with time zone, e.g. "2026-12-15T09:00:00+01:00",
+#               or only the date, e.g. "2027-02-17", if the time is not fixed yet
+# end           end, same format
+# mode          online | onsite | blended
+# location      online: platform, e.g. "Zoom" (optional); onsite: venue
+# address       onsite only (optional): street, postcode, city, country (DE, ...)
+# language      en | de
+# registration  URL of the registration page (or "mailto:...")
+# level         Beginner | Intermediate | Advanced
+# audience      target groups
+# prerequisites what participants need to bring or know (optional)
+# keywords      list of topics
+# topics        EDAM topics, each with id and name (optional, shown in TeSS
+#               as scientific topics; https://edamontology.org), e.g.
+#               - { id: topic_3372, name: Software engineering }
+# teaches       list of learning objectives (optional)
+# lessons       training material used, each with name and url (optional)
+# instructors   list of names (optional)
+# capacity      maximum number of participants (optional)
+# participants  after the training: number of people who actually took part,
+#               without trainers and helpers (not shown on the page)
+
+trainings:
+
+  # ---------------------------------------------------------------- 2027
+
+  - id: "2027-02-17-git-codeberg-rdm-lunch-to-lunch"
+    status: upcoming
+    title: "Introduction to Git and Codeberg for Research Data Management (Lunch-to-Lunch)"
+    description: >
+      Version control is a cornerstone of reproducible research and good
+      research data management. In this on-site lunch-to-lunch workshop,
+      participants learn to track changes to their files with Git and to share
+      their work on Codeberg. On the second day, Codeberg becomes a tool for
+      project and team work: planning tasks with issues, labels, milestones and
+      project boards, and collaborating through forks, pull requests and reviews.
+    start: "2027-02-17"
+    end: "2027-02-18"
+    mode: onsite
+    location: "ZB MED – Information Centre for Life Sciences"
+    address:
+      street: "Gleueler Straße 60"
+      postcode: "50931"
+      city: "Köln"
+      country: "DE"
+    language: de
+    level: Beginner
+    audience: "RDM multipliers, data stewards, researchers (especially early career researchers)"
+    prerequisites: "No prior knowledge of Git or the command line required. Laptop with installation rights and a Codeberg account."
+    keywords: [Version control, Git, Codeberg, Research data management, Collaboration]
+    topics:
+      - { id: topic_3372, name: Software engineering }
+      - { id: topic_3572, name: Data quality management }
+    teaches:
+      - "Learners are able to apply the command line to navigate the file system and work with files and folders, following file naming conventions."
+      - "Learners are able to explain the relevance and benefits of versioning and distinguish Git as distributed versioning software from platforms such as Codeberg."
+      - "Learners are able to apply Git to track changes and to document a project with a README file."
+      - "Learners are able to apply Git and Codeberg to share their work (push, pull) and explain best practices such as meaningful commit messages and SSH keys."
+      - "Learners are able to explain the role of licences for reuse."
+      - "Learners are able to apply issues, labels, milestones and project boards to plan and track tasks in a project."
+      - "Learners are able to propose changes to other people's projects with a fork and a pull request, review proposed changes collaboratively, and explain the role of access permissions and a traceable project history."
+    lessons:
+      - name: "Introduction to Git and Codeberg for Research Data Management"
+        url: "https://zbmed.codeberg.page/lc-git-rdm/"
+    instructors: ["Rabea Müller"]
+
+  # ---------------------------------------------------------------- 2026
+
+  - id: "2026-12-15-git-codeberg-rdm"
+    status: closed
+    title: "Introduction to Git and Codeberg for Research Data Management"
+    description: >
+      Version control is a cornerstone of reproducible research and good
+      research data management. In this hands-on workshop, participants learn
+      to track changes to their files with Git and to share their work on
+      Codeberg. The workshop is tailored to the RDMTraining4NFDI OER templates,
+      which will be published in 2027.
+    start: "2026-12-15T09:00:00+01:00"
+    end: "2026-12-15T13:00:00+01:00"
+    mode: online
+    language: de
+    registration: "https://terminplaner.dfn.de/public/bookings/7c8bbe95-4be1-497e-951a-977a4eeb7405"
+    level: Beginner
+    audience: "RDM multipliers, data stewards, researchers (especially early career researchers)"
+    prerequisites: "No prior knowledge required. Laptop with installation rights and a Codeberg account."
+    keywords: [Version control, Git, Codeberg, Research data management, Open educational resources]
+    topics:
+      - { id: topic_3372, name: Software engineering }
+      - { id: topic_3572, name: Data quality management }
+    teaches:
+      - "Learners are able to apply the command line to navigate the file system and work with files and folders, following file naming conventions."
+      - "Learners are able to explain the relevance and benefits of versioning and distinguish Git as distributed versioning software from platforms such as Codeberg."
+      - "Learners are able to apply Git to track changes and to document a project with a README file."
+      - "Learners are able to apply Git and Codeberg to share their work (push, pull) and explain best practices such as meaningful commit messages and SSH keys."
+      - "Learners are able to explain the role of licences for reuse."
+    lessons:
+      - name: "Introduction to Git and Codeberg for Research Data Management"
+        url: "https://zbmed.codeberg.page/lc-git-rdm/"
+    instructors: ["Rabea Müller"]
+
+  # ---------------------------------------------------------------- 2025
+
+  - id: "2025-11-13-git-advanced"
+    status: closed
+    series: hybrid-event-2025
+    title: "Git Advanced"
+    description: >
+      A hands-on workshop on advanced version control with Git.
+    start: "2025-11-13"
+    end: "2025-11-13"
+    mode: online
+    location: "Zoom"
+    language: en
+    level: Intermediate
+    audience: "Research data management, NFDI consortia"
+    instructors: ["Till Sauerwein"]
+    keywords: [Git, Version control]
+    participants: 10
+
+  - id: "2025-11-13-git"
+    status: closed
+    series: hybrid-event-2025
+    title: "Git for Beginners"
+    description: >
+      A hands-on introduction to version control with Git.
+    start: "2025-11-13"
+    end: "2025-11-13"
+    mode: online
+    location: "Zoom"
+    language: en
+    level: Beginner
+    audience: "Research data management, NFDI consortia"
+    instructors: ["Rabea Müller"]
+    keywords: [Git, Version control]
+    participants: 10
+
+  - id: "2025-11-11-python"
+    status: closed
+    series: hybrid-event-2025
+    title: "Python for Beginners"
+    description: >
+      A hands-on introduction to programming with Python.
+    start: "2025-11-11"
+    end: "2025-11-11"
+    mode: online
+    location: "Zoom"
+    language: en
+    level: Beginner
+    audience: "Research data management, NFDI consortia"
+    instructors: ["Rabea Müller", "Justine Vandendorpe"]
+    keywords: [Python]
+    participants: 6
+
+  - id: "2025-11-06-data-protection"
+    status: closed
+    series: hybrid-event-2025
+    title: "Practical Data Protection in Research"
+    description: >
+      A workshop on practical data protection in research projects.
+    start: "2025-11-06"
+    end: "2025-11-06"
+    mode: online
+    location: "Zoom"
+    language: en
+    level: Beginner
+    audience: "Research data management, NFDI consortia"
+    instructors: ["Neelam Vishen"]
+    keywords: [Data protection, Research data management]
+    participants: 8
+
+  - id: "2025-11-04-foundations-rdm"
+    status: closed
+    series: hybrid-event-2025
+    title: "Foundations of Research Data Management"
+    description: >
+      An introduction to research data management for beginners.
+    start: "2025-11-04"
+    end: "2025-11-04"
+    mode: online
+    location: "Zoom"
+    language: en
+    level: Beginner
+    audience: "Research data management, NFDI consortia"
+    instructors: ["Justine Vandendorpe", "Sophie Boße"]
+    keywords: [Research data management, FAIR]
+    participants: 11
+
+  - id: "2025-10-27-strategic-data-stewardship"
+    status: closed
+    series: hybrid-event-2025
+    title: "Strategic Data Stewardship & Change Management"
+    description: >
+      An in-person lunch-to-lunch workshop on strategic data stewardship and
+      change management.
+    start: "2025-10-27"
+    end: "2025-10-28"
+    mode: onsite
+    language: en
+    level: Intermediate
+    audience: "Research data management, NFDI consortia"
+    instructors: ["Antje Manske"]
+    keywords: [Data stewardship, Change management]
+    participants: 13
+
+# Series: past trainings with the same "series" key are grouped under this
+# heading, with an optional link (e.g. to a report or concept on Zenodo).
+series:
+  hybrid-event-2025:
+    title: "Hybrid Event on Research Data Management for NFDI Consortia"
+    description: >
+      An on-site lunch-to-lunch workshop followed by an online workshop series
+      with live sessions, organised together with our use cases.
+    link:
+      name: "Concept of the hybrid event (Zenodo)"
+      url: "https://doi.org/10.5281/zenodo.19328263"

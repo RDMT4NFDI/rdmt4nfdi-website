@@ -17,6 +17,27 @@ Check out our website (TODO: ADD LINK AFTER PUBLISHING). (_The website is hosted
 
 You can also find us [on the Base4NFDI website](https://base4nfdi.de/projects/). (TODO: specify) 
 
+# Add a training
+
+The [Training page](https://rdmt.services.base4nfdi.de/training/) is generated from
+[`data/trainings.yaml`](data/trainings.yaml). Every training date is one entry; the
+fields are explained at the top of that file. Copy an existing entry, adjust it
+and commit. The page also contains Bioschemas metadata (`Course` and
+`CourseInstance`, JSON-LD) for each upcoming training, so that
+[TeSS](https://tess.elixir-europe.org) can harvest it via
+[`static/sitemap.txt`](static/sitemap.txt).
+
+- `status`: `upcoming` (registration not open yet), `open` (default, shows a
+  *Register* button linking to `registration`) or `closed`.
+- Past trainings move to *Past trainings* automatically and are no longer sent
+  to TeSS. Please do not delete them; add `participants` after the training
+  (not shown on the page).
+- Trainings that belong together (e.g. the 2025 hybrid event) get the same
+  `series` key and are grouped under the heading defined in `series:` at the
+  end of the file.
+- Dates with time and time zone, e.g. `"2026-12-15T09:00:00+01:00"`
+  (`+02:00` in summer), or the date alone if the time is not fixed yet.
+
 # License
 This repository and the website content (TODO: ADD LINK AFTER PUBLISHING) are licensed under Creative Commons [CC-BY-SA-4.0 licence](https://creativecommons.org/licenses/by-sa/4.0/).
 
