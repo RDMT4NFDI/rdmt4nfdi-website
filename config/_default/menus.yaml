@@ -11,6 +11,9 @@ main:
 #  - name: Integrations
 #    url: integrations
 #    weight: 15
+  - name: Training
+    url: training
+    weight: 15
   - name: Publications
     url: publication
     weight: 20

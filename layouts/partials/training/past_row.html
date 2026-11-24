@@ -1,0 +1,13 @@
+{{/* One past training as a compact row. Context: dict "item", "modeNames", "langNames". */}}
+{{ $t := .item }}
+{{ $start := time.AsTime $t.start }}
+{{ $end := time.AsTime $t.end }}
+{{ $sd := $start.Format "2 Jan 2006" }}
+{{ $ed := $end.Format "2 Jan 2006" }}
+<li class="training-past" id="{{ $t.id }}">
+  <span class="training-past-date">{{ if eq $sd $ed }}{{ $sd }}{{ else if eq ($start.Format "Jan 2006") ($end.Format "Jan 2006") }}{{ $start.Format "2" }}–{{ $ed }}{{ else }}{{ $start.Format "2 Jan" }} – {{ $ed }}{{ end }}</span>
+  <span class="training-past-main">
+    <span class="training-past-title">{{ $t.title }}</span>
+    <span class="training-past-meta">{{ index $.modeNames $t.mode | default $t.mode }} · {{ index $.langNames $t.language | default $t.language }}{{ with $t.level }} · {{ . }}{{ end }}{{ with $t.instructors }} · {{ delimit . ", " }}{{ end }}</span>
+  </span>
+</li>

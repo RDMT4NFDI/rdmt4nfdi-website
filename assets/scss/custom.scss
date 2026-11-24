@@ -369,3 +369,246 @@
     -webkit-mask: url("/images/codeberg.svg") center / contain no-repeat;
     mask: url("/images/codeberg.svg") center / contain no-repeat;
   }
+
+  /* Training page (layouts/training/list.html, data/trainings.yaml) */
+  .training-intro {
+    max-width: 760px;
+    margin-bottom: 2rem;
+  }
+
+  .training-heading {
+    margin: 2.5rem 0 1rem;
+    color: var(--color-anthrazit);
+  }
+
+  .dark .training-heading {
+    color: #fff;
+  }
+
+  .training-list {
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  .training-card {
+    border: 1px solid var(--color-grey-20);
+    border-left: 4px solid var(--color-blue);
+    border-radius: var(--border-radius);
+    padding: 1.25rem 1.5rem;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  }
+
+  .dark .training-card {
+    background: #282a36;
+    border-color: #44475a;
+    border-left-color: var(--color-blue);
+  }
+
+  .training-card.training-upcoming {
+    border-left-color: var(--color-blue-dark);
+  }
+
+  .training-card.training-closed {
+    border-left-color: var(--color-grey-60);
+  }
+
+  .training-date {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    color: var(--color-blue-dark);
+  }
+
+  .dark .training-date {
+    color: var(--color-blue);
+  }
+
+  .training-status {
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-anthrazit);
+    background: var(--color-grey-20);
+  }
+
+  .training-upcoming .training-status {
+    color: #0c4a6e;
+    background: #bae6fd;
+  }
+
+  .dark .training-status {
+    color: #fff;
+    background: #44475a;
+  }
+
+  .dark .training-upcoming .training-status {
+    color: #0c4a6e;
+    background: #bae6fd;
+  }
+
+  .training-title {
+    margin: 0.5rem 0 0.4rem;
+    font-size: 1.35rem;
+    color: var(--color-anthrazit);
+  }
+
+  .dark .training-title {
+    color: #fff;
+  }
+
+  .training-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.25rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--color-grey);
+  }
+
+  .dark .training-meta {
+    color: #c0c6d0;
+  }
+
+  .training-meta i {
+    width: 1em;
+    margin-right: 0.2rem;
+    color: var(--color-blue);
+  }
+
+  .training-description {
+    margin-bottom: 0.6rem;
+  }
+
+  .training-detail {
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+  }
+
+  .training-objectives {
+    margin: 0.6rem 0 0.2rem;
+    font-size: 0.95rem;
+  }
+
+  .training-objectives summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--color-blue-dark);
+  }
+
+  .dark .training-objectives summary {
+    color: var(--color-blue);
+  }
+
+  .training-objectives ul {
+    margin: 0.5rem 0 0;
+    padding-left: 1.25rem;
+  }
+
+  .training-register {
+    margin-top: 0.75rem;
+    font-size: 1rem !important;
+    color: #fff !important;
+  }
+
+  .training-empty {
+    color: var(--color-grey);
+  }
+
+  .training-year {
+    margin-bottom: 1.5rem;
+  }
+
+  .training-year-heading {
+    margin: 1.5rem 0 0.75rem;
+    padding-bottom: 0.3rem;
+    font-size: 1.15rem;
+    color: var(--color-grey);
+    border-bottom: 1px solid var(--color-grey-20);
+  }
+
+  .training-series {
+    margin-bottom: 1rem;
+    padding: 1rem 1.25rem;
+    border-radius: var(--border-radius);
+    background: var(--color-grey-10);
+  }
+
+  .training-series-title {
+    margin: 0 0 0.3rem;
+    font-size: 1.05rem;
+    color: var(--color-anthrazit);
+  }
+
+  .dark .training-series-title {
+    color: #fff;
+  }
+
+  .training-series-description,
+  .training-series-link {
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+  }
+
+  .training-past-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .training-past {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    border-top: 1px solid var(--color-grey-20);
+  }
+
+  .training-past:first-child {
+    border-top: none;
+  }
+
+  .training-past-date {
+    flex: 0 0 8.5rem;
+    font-size: 0.9rem;
+    color: var(--color-grey);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .training-past-main {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .training-past-title {
+    font-weight: 600;
+  }
+
+  .training-past-meta {
+    font-size: 0.85rem;
+    color: var(--color-grey);
+  }
+
+  .dark .training-past-date,
+  .dark .training-past-meta,
+  .dark .training-year-heading {
+    color: #c0c6d0;
+  }
+
+  @media (max-width: 575.98px) {
+    .training-card {
+      padding: 1rem;
+    }
+
+    .training-past {
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+
+    .training-past-date {
+      flex-basis: auto;
+    }
+  }
