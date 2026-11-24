@@ -100,7 +100,7 @@ trainings:
     registration: "https://terminplaner.dfn.de/public/bookings/7c8bbe95-4be1-497e-951a-977a4eeb7405"
     level: Beginner
     audience: "RDM multipliers, data stewards, researchers (especially early career researchers)"
-    prerequisites: "No prior knowledge required. Laptop with installation rights and a Codeberg account."
+    prerequisites: "No prior knowledge of Git or the command line required. Laptop with installation rights and a Codeberg account."
     keywords: [Version control, Git, Codeberg, Research data management, Open educational resources]
     topics:
       - { id: topic_3372, name: Software engineering }
@@ -115,6 +115,7 @@ trainings:
       - name: "Introduction to Git and Codeberg for Research Data Management"
         url: "https://zbmed.codeberg.page/lc-git-rdm/"
     instructors: ["Rabea Müller"]
+    capacity: 20
 
   # ---------------------------------------------------------------- 2025
 
